@@ -33,6 +33,7 @@
 
 body {
   background-image: radial-gradient(circle, #000000, #013030);
+
 }
 
 
@@ -61,3 +62,4 @@ body {
   display: block;
   margin: 0 auto;
 }
+

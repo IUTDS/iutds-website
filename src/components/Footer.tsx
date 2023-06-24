@@ -1,55 +1,56 @@
-import Image from "next/image";
-import Link from "next/link";
+import Link from 'next/link'
+import React from 'react'
+import { Facebook, Instagram, Linkedin } from 'feather-icons-react';
 
-export default function Footer() {
+const Footer2 = () => {
   return (
-    <footer className="bg-gray-900 fixed bottom-0 left-0 w-full">
-      <div className="container">
-        <div className="flex flex-wrap justify-between">
-          <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/6 mb-8 md:mb-0">
-            <h3 className="text-white text-lg font-bold mb-4 ml-8 mt-16">About</h3>
-            <p className="text-gray-400 ml-8">Some information about IUTDS.</p>
-          </div>
-          <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/6 mb-8 md:mb-0">
-            <h3 className="text-white text-lg font-bold mb-4 mt-8">Links</h3>
-            <ul className="text-gray-400">
-              <li className="mb-2">
-                <Link href="/about">
-                  About
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link href="/achievements">
-                  Achievements
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link href="/blog">
-                  Blog
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link href="/debate-resources">
-                  Debate Resources
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link href="/programs">
-                    Events
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link href="/panel">
-                    Panel
-                </Link>
-              </li>
-            </ul>
-          </div>
+    <footer className='fixed bottom-0 left-0 w-full bg-black text-white'>
+        <div className="md:flex md:justify-between md:items-center sm:px-12 sm:flex sm:justify-center px-4  pt-4 pb-2">
+            <h1
+            className="lg:text-2xl text-2xl md:text-lg sm:text-lg md:mb-0 mb-2 lg:leading-normal font-semibold
+            md:w-2/5"
+            >
+            <span className="text-iutdsred">Join IUTDS,</span> Become a member
+            </h1>
         </div>
-        <div className="mt-8 text-gray-400 text-center mb-4">
-          &copy; {new Date().getFullYear()} Islamic University of Technology Debating Society
+        <div className="md:flex md:justify-between md:items-center sm:grid sm:px-12 sm:justify-items-center px-4 pb-6">
+            <div>
+                <Link href="\contact" className='hover:text-iutdsred text-white'>Contact us</Link>
+            </div>
+            
+            
+            <div className='flex gap-6 mt-4'>
+                <Link href='/' className="hover:text-iutdsred">
+                    <Facebook size={24} />
+                </Link>
+                <Link href='/' className="hover:text-iutdsred">
+                    <Instagram size={24} />
+                </Link>
+                <Link href='/' className="hover:text-iutdsred">
+                    <Linkedin size={24} />
+                </Link>
+                 
+            </div>
+
         </div>
+
+        
+
+        <div
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10
+        text-center pt-2 text-gray-400 text-sm pb-8"
+        >
+            <span>© 2023 IUTDS | All rights reserved.</span>
+            <span>Terms · Privacy Policy</span>
       </div>
+
+      <hr className="border-t-4 border-iutdsred my-4" />
+      <div className='flex justify-center gap-8 mb-4'>
+        <span> I U T </span> 
+        <span> D E B A T I N G </span> 
+        <span> S O C I E T Y </span></div>
     </footer>
-  );
+  )
 }
+
+export default Footer2
