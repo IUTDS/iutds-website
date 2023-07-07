@@ -4,7 +4,7 @@ import { Facebook, Instagram, Linkedin } from 'feather-icons-react';
 
 const Footer2 = () => {
   return (
-    <footer className='bottom-0 left-0 w-full bg-black text-white'>
+    <footer className='w-full bg-black text-white'>
         <div className="md:flex md:justify-between md:items-center sm:px-12 sm:flex sm:justify-center px-4  pt-4 pb-2">
             <h1
             className="lg:text-2xl text-2xl md:text-lg sm:text-lg md:mb-0 mb-2 lg:leading-normal font-semibold
@@ -38,7 +38,7 @@ const Footer2 = () => {
 
         <div
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10
-        text-center pt-2 text-gray-400 text-sm pb-8"
+        text-center pt-2 text-gray-400 text-sm pb-2"
         >
             <span>© 2023 IUTDS | All rights reserved.</span>
             <span>Terms · Privacy Policy</span>
