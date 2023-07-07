@@ -4,7 +4,7 @@ import { Facebook, Instagram, Linkedin } from 'feather-icons-react';
 
 const Footer2 = () => {
   return (
-    <footer className='fixed bottom-0 left-0 w-full bg-black text-white'>
+    <footer className='bottom-0 left-0 w-full bg-black text-white'>
         <div className="md:flex md:justify-between md:items-center sm:px-12 sm:flex sm:justify-center px-4  pt-4 pb-2">
             <h1
             className="lg:text-2xl text-2xl md:text-lg sm:text-lg md:mb-0 mb-2 lg:leading-normal font-semibold
@@ -45,10 +45,11 @@ const Footer2 = () => {
       </div>
 
       <hr className="border-t-4 border-iutdsred my-4" />
-      <div className='flex justify-center gap-8 mb-4'>
+      <div className='flex justify-center gap-8 pb-4'>
         <span> I U T </span> 
         <span> D E B A T I N G </span> 
-        <span> S O C I E T Y </span></div>
+        <span> S O C I E T Y </span>
+    </div>
     </footer>
   )
 }

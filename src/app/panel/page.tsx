@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Page = () => {
   return (
@@ -8,12 +9,12 @@ const Page = () => {
       {/* President */}
       <h1 className="sub-head-text text-center purple_gradient">President</h1>
       <div className="flex-center" style={{ marginTop: '20px' }}>
-        <img
-          src="/EC-Panel/President_Sakif.jpg"
-          alt="President, IUTDS"
+        <Image 
           className="center-image"
-          style={{ width: '20%' }}
-        />
+          width={300} height={250} 
+          src="/EC-Panel/President_Sakif.jpg" 
+          alt="President, IUTDS" 
+         />
         <br />
         <p className="text-center purple_gradient">President</p>
       </div>
@@ -23,42 +24,44 @@ const Page = () => {
       <br />
       <div className="flex-center" style={{ marginTop: '20px', display: 'flex', justifyContent: 'space-between'}}>
         <div>
-          <img
-            src="/EC-Panel/VP_Alif.jpg"
-            alt="Vice-president(Admin), IUTDS"
-            className="center-image"
-            style={{ width: '75%', height: 'auto' }}
-          />
+        <Image 
+          className="center-image"
+          width={300} height={250} 
+          src="/EC-Panel/VP_Alif.jpg" 
+          alt="Vice-president(Admin), IUTDS" 
+         />
           <br />
           <p className="text-center purple_gradient">Vice-president (Administration)</p>
         </div>
         <div>
-          <img
-            src="/EC-Panel/VP_Arif.jpg"
-            alt="Vice-president(Operations), IUTDS"
-            className="center-image"
-            style={{ width: '75%', height: 'auto' }}
-          />
+        <Image 
+          className="center-image"
+          width={300} height={250} 
+          src="/EC-Panel/VP_Arif.jpg" 
+          alt="Vice-president(Operations), IUTDS" 
+         />
           <br />
           <p className="text-center purple_gradient">Vice-president (Operations)</p>
         </div>
         <div>
-          <img
-            src="/EC-Panel/VP_Tanvir.jpg"
-            alt="Vice-president(Operations), IUTDS"
-            className="center-image"
-            style={{ width: '75%', height: 'auto' }}
-          />
+
+        <Image 
+          className="center-image"
+          width={300} height={250} 
+          src="/EC-Panel/VP_Tanvir.jpg" 
+          alt="Vice-president(Operations), IUTDS" 
+         />
           <br />
           <p className="text-center purple_gradient">Vice-president (Accounts & Development)</p>
         </div>
         <div>
-          <img
-            src="/EC-Panel/VP_Sajid.jpg"
-            alt="Vice-president(Operations), IUTDS"
-            className="center-image"
-            style={{ width: '75%', height: 'auto' }}
-          />
+
+        <Image 
+          className="center-image"
+          width={300} height={250} 
+          src="/EC-Panel/VP_Sajid.jpg" 
+          alt="Vice-president(Debate and Workshop), IUTDS" 
+         />
           <br />
           <p className="text-center purple_gradient">Vice-president (Debate & Workshop)</p>
         </div>
