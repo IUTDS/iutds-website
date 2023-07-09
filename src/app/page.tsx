@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <section className="container mx-auto py-8 px-4 flex-center flex-col">
-      <h1 className="mt-10 head_text text-center uppercase">
+    <section className="mt-2 container mx-auto py-8 px-4 flex-center flex-col">
+      <h1 className="head_text text-center uppercase">
         Welcome to IUT Debating Society
       </h1>
       <h2 className="sub-head_text text-center">
