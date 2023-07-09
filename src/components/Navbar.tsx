@@ -18,7 +18,7 @@ const Navbar = () => {
     <div className="bg-[#000000]">
       <nav className="flex justify-between items-center w-[92%] mx-auto ">
         <Link href="\">
-          <div>
+          <div mt-5>
             <Image
               className="text-white"
               width={70}

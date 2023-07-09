@@ -30,31 +30,24 @@
     color: #ffffff;
   }
 }
-
-body {
-  background-image: radial-gradient(circle, #000000, #013030);
-}
 */
 
+body {
+  background-color: rgb(241 245 249);
+}
+
 h1,
-h2 {
+h2,
+p {
   font-family: "Poppins", sans-serif;
 }
 
 .head_text {
-  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl;
+  @apply tracking-tight text-sm font-extrabold leading-[1.15] text-black sm:text-4xl;
 }
 
-.sub-head-text {
-  @apply mt-3 text-3xl font-extrabold leading-[1.15] text-black sm:text-3xl;
-}
-
-.caption_text {
-  @apply mt-3 text-sm font-extrabold leading-[1.15] text-black sm:text-2xl;
-}
-
-.sub-caption_text {
-  @apply mt-0 tracking-wide text-sm text-black;
+.sub-head_text {
+  @apply tracking-wide text-sm leading-[1.15] text-black sm:text-xl;
 }
 
 .purple_gradient {
