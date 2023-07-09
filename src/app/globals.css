@@ -1,20 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-} */
+}
 
 @media (prefers-color-scheme: light) {
   body {
@@ -30,13 +31,15 @@
   }
 }
 
-
 body {
   background-image: radial-gradient(circle, #000000, #013030);
-
 }
+*/
 
-
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+}
 
 .head_text {
   @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl;
@@ -46,9 +49,17 @@ body {
   @apply mt-3 text-3xl font-extrabold leading-[1.15] text-black sm:text-3xl;
 }
 
-/* .purple_gradient {
+.caption_text {
+  @apply mt-3 text-sm font-extrabold leading-[1.15] text-black sm:text-2xl;
+}
+
+.sub-caption_text {
+  @apply mt-0 tracking-wide text-sm text-black;
+}
+
+.purple_gradient {
   @apply bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-500 bg-clip-text text-transparent;
-}   */
+}
 
 .purple_gradient {
   @apply bg-gradient-to-r from-teal-200 via-teal-400 to-teal-600 bg-clip-text text-transparent;
@@ -62,4 +73,3 @@ body {
   display: block;
   margin: 0 auto;
 }
-
