@@ -12,7 +12,7 @@ export default function Home() {
       </h2>
       <div className="mt-10 flex justify-center">
         <Image
-          src="/assets/images/IUTDS_IV_Poster.png"
+          src="/assets/images/IUTDS_IV_Poster3.png"
           alt="IUTDS IV Poster"
           width={1920}
           height={700}
