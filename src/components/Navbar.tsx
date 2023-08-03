@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-[#000000]">
+    <div className="bg-[#000000] py-3">
       <nav className="flex justify-between items-center w-[92%] mx-auto ">
         <Link href="\">
           <div mt-5>

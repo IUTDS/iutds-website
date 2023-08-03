@@ -5,9 +5,8 @@ const Page = () => {
   return (
     <section className="w-full flex-center flex-col">
       <br />
-      <h1 className="head_text text-center purple_gradient">EC Panel</h1>
+      <h1 className="head_text text-center ">EC Panel</h1>
       {/* President */}
-      <h1 className="sub-head-text text-center purple_gradient">President</h1>
       <div className="flex-center" style={{ marginTop: '20px' }}>
         <Image 
           className="center-image"
@@ -16,13 +15,13 @@ const Page = () => {
           alt="President, IUTDS" 
          />
         <br />
-        <p className="text-center purple_gradient">President</p>
+        <p className="text-center ">President</p>
       </div>
       {/* Vice-President */}
       <br /> 
-      <h1 className="sub-head-text text-center purple_gradient">Vice-Presidents</h1>
+      <h2 className="head_text text-center ">Vice President</h2>
       <br />
-      <div className="flex-center" style={{ marginTop: '20px', display: 'flex', justifyContent: 'space-between'}}>
+      <div className="flex justify-evenly">
         <div>
         <Image 
           className="center-image"
@@ -31,7 +30,7 @@ const Page = () => {
           alt="Vice-president(Admin), IUTDS" 
          />
           <br />
-          <p className="text-center purple_gradient">Vice-president (Administration)</p>
+          <p className="text-center ">Vice-president (Administration)</p>
         </div>
         <div>
         <Image 
@@ -41,7 +40,7 @@ const Page = () => {
           alt="Vice-president(Operations), IUTDS" 
          />
           <br />
-          <p className="text-center purple_gradient">Vice-president (Operations)</p>
+          <p className="text-center ">Vice-president (Operations)</p>
         </div>
         <div>
 
@@ -52,7 +51,7 @@ const Page = () => {
           alt="Vice-president(Operations), IUTDS" 
          />
           <br />
-          <p className="text-center purple_gradient">Vice-president (Accounts & Development)</p>
+          <p className="text-center ">Vice-president (Accounts & Development)</p>
         </div>
         <div>
 
@@ -63,159 +62,162 @@ const Page = () => {
           alt="Vice-president(Debate and Workshop), IUTDS" 
          />
           <br />
-          <p className="text-center purple_gradient">Vice-president (Debate & Workshop)</p>
+          <p className="text-center ">Vice-president (Debate & Workshop)</p>
         </div>
       </div>
       {/* Directors */}
       <br /> 
-      <h1 className="sub-head-text text-center purple_gradient">Directors</h1>
+      <h2 className="head_text text-center ">Directors</h2>
       <br />
-      <div className="flex-center" style={{ marginTop: '20px', display: 'flex', justifyContent: 'space-between' }}>
+      <div className="flex justify-evenly">
         <div>
-          <img
-            src="/EC-Panel/Dir_zaarin.jpg"
-            alt="Director(Administration), IUTDS"
+          <Image 
             className="center-image"
-            style={{ width: '75%', height: 'auto' }}
+            width={300} height={250} 
+            src="/EC-Panel/Dir_zaarin.jpg" 
+            alt="Director(Administration), IUTDS" 
           />
           <br />
-          <p className="text-center purple_gradient">Director (Administration)</p>
+          <p className="text-center ">Director (Administration)</p>
         </div>
         <div>
-          <img
-            src="/EC-Panel/Dir_Reaz.jpg"
-            alt="Director(Creative), IUTDS"
-            className="center-image"
-            style={{ width: '75%', height: 'auto' }}
-          />
+          <Image 
+              className="center-image"
+              width={300} height={250} 
+              src="/EC-Panel/Dir_Reaz.jpg" 
+              alt="Director(Creative), IUTDS" 
+            />
           <br />
-          <p className="text-center purple_gradient">Director (Creative)</p>
+          <p className="text-center ">Director (Creative)</p>
         </div>
         <div>
-          <img
-            src="/EC-Panel/Dir_Lorin.jpg"
-            alt="Director(Logistics), IUTDS"
-            className="center-image"
-            style={{ width: '75%', height: 'auto' }}
-          />
+          <Image 
+              className="center-image"
+              width={300} height={250} 
+              src="/EC-Panel/Dir_Lorin.jpg" 
+              alt="Director(Logistics), IUTDS" 
+            />
           <br />
-          <p className="text-center purple_gradient">Director (Logistics)</p>
+          <p className="text-center ">Director (Logistics)</p>
         </div>
         <div>
-          <img
-            src="/EC-Panel/Dir_Arifin.jpg"
-            alt="Director(Publication), IUTDS"
-            className="center-image"
-            style={{ width: '75%', height: 'auto' }}
-          />
+          <Image 
+              className="center-image"
+              width={300} height={250} 
+              src="/EC-Panel/Dir_Arifin.jpg" 
+              alt="Director(Publication), IUTDS" 
+            />
           <br />
-          <p className="text-center purple_gradient">Director (Publication)</p>
+          <p className="text-center ">Director (Publication)</p>
         </div>
       </div>
 
       {/* Heads */}
       <br /> 
-      <h1 className="sub-head-text text-center purple_gradient">Heads</h1>
+      <h2 className="head_text text-center ">Head of Departments</h2>
       <br />
-      <div className="flex-center" style={{ marginTop: '20px', display: 'flex', justifyContent: 'space-between' }}>
+      <div className="flex justify-evenly">
         <div>
-          <img
-            src="/EC-Panel/Head_Arpi.jpg"
-            alt="Head (Debate & Workshop), IUTDS"
-            className="center-image"
-            style={{ width: '75%', height: 'auto' }}
-          />
+          <Image 
+              className="center-image"
+              width={300} height={250} 
+              src="/EC-Panel/Head_Arpi.jpg" 
+              alt="Head (Debate & Workshop), IUTDS" 
+            />
           <br />
-          <p className="text-center purple_gradient">Head (Debate & Workshop)</p>
+          <p className="text-center ">Head (Debate & Workshop)</p>
         </div>
         <div>
-          <img
-            src="/EC-Panel/Head_Annesha.jpg"
-            alt="Head (Branding), IUTDS"
-            className="center-image"
-            style={{ width: '75%', height: 'auto' }}
-          />
+          <Image 
+              className="center-image"
+              width={300} height={250} 
+              src="/EC-Panel/Head_Annesha.jpg" 
+              alt="Head (Branding), IUTDS" 
+            />
           <br />
-          <p className="text-center purple_gradient">Head (Branding)</p>
+          <p className="text-center ">Head (Branding)</p>
         </div>
         <div>
-          <img
-            src="/EC-Panel/Head_Abrar.jpg"
-            alt="Head (Communication), IUTDS"
-            className="center-image"
-            style={{ width: '75%', height: 'auto' }}
-          />
+          <Image 
+              className="center-image"
+              width={300} height={250} 
+              src="/EC-Panel/Head_Abrar.jpg" 
+              alt="Head (Communication), IUTDS" 
+            />
           <br />
-          <p className="text-center purple_gradient">Head (Communication)</p>
+          <p className="text-center ">Head (Communication)</p>
         </div>
         <div>
-          <img
-            src="/EC-Panel/Head_Muti.jpg"
-            alt="Head (Content), IUTDS"
-            className="center-image"
-            style={{ width: '75%', height: 'auto' }}
-          />
+          <Image 
+              className="center-image"
+              width={300} height={250} 
+              src="/EC-Panel/Head_Muti.jpg" 
+              alt="Head (Content), IUTDS" 
+            />
           <br />
-          <p className="text-center purple_gradient">Head (Content)</p>
+          <p className="text-center ">Head (Content)</p>
         </div>
       </div>
       {/* Strategic Heads */}
       <br /> 
-      <h1 className="sub-head-text text-center purple_gradient">Strategic Heads</h1>
+      <h2 className="head_text text-center ">Strategic Heads</h2>
       <br />
-      <div className="flex-center" style={{ marginTop: '20px', display: 'flex', justifyContent: 'space-between' }}>
+      <div className="flex justify-evenly">
         <div>
-          <img
-            src="/EC-Panel/SH_Ihfaz.jpg"
-            alt="Strategic Head of Creative , IUTDS"
-            className="center-image"
-            style={{ width: '93%', height: 'auto' }}
-          />
+          <Image 
+              className="center-image"
+              width={300} height={250} 
+              src="/EC-Panel/SH_Ihfaz.jpg" 
+              alt="Strategic Head of Creative , IUTDS"
+            />
           <br />
-          <p className="text-center purple_gradient">Strategic Head of Creative</p>
+          <p className="text-center ">Strategic Head of Creative</p>
         </div>
         <div>
-          <img
-            src="/EC-Panel/SH_Ali.jpg"
-            alt="Strategic Head of Events, IUTDS"
-            className="center-image"
-            style={{ width: '93%', height: 'auto' }}
-          />
+          <Image 
+              className="center-image"
+              width={300} height={250} 
+              src="/EC-Panel/SH_Ali.jpg" 
+              alt="Strategic Head of Events , IUTDS"
+            />
           <br />
-          <p className="text-center purple_gradient">Strategic Head of Events</p>
+          <p className="text-center ">Strategic Head of Events</p>
         </div>
         <div>
-          <img
-            src="/EC-Panel/SH_Ghazanfar.jpg"
-            alt="Strategic Head of Liaison, IUTDS"
-            className="center-image"
-            style={{ width: '93%', height: 'auto' }}
-          />
+          <Image 
+              className="center-image"
+              width={300} height={250} 
+              src="/EC-Panel/SH_Ghazanfar.jpg" 
+              alt="Strategic Head of Liaison , IUTDS"
+            />
           <br />
-          <p className="text-center purple_gradient">Strategic Head of Liaison</p>
+          <p className="text-center ">Strategic Head of Liaison</p>
+        </div>
+        
+      </div>
+      
+      <div className="flex justify-evenly" style={{ marginTop: '20px' }}>
+        <div>
+          <Image 
+              className="center-image"
+              width={300} height={250} 
+              src="/EC-Panel/SH_Agni.jpg" 
+              alt="Strategic Head of Liaison , IUTDS"
+            />
+          <br />
+          <p className="text-center ">Strategic Head of Marketing</p>
         </div>
         <div>
-          <img
-            src="/EC-Panel/SH_Agni.jpg"
-            alt="Strategic Head of Marketing, IUTDS"
-            className="center-image"
-            style={{ width: '93%', height: 'auto' }}
-          />
+          <Image 
+              className="center-image"
+              width={300} height={250} 
+              src="/EC-Panel/SH_Nafisa.jpg" 
+              alt="Strategic Head of Liaison , IUTDS"
+            />
           <br />
-          <p className="text-center purple_gradient">Strategic Head of Marketing</p>
-        </div>
-        <div>
-          <img
-            src="/EC-Panel/SH_Nafisa.jpg"
-            alt="Strategic Head of Publication, IUTDS"
-            className="center-image"
-            style={{ width: '93%', height: 'auto' }}
-          />
-          <br />
-          <p className="text-center purple_gradient">Strategic Head of Publication</p>
+          <p className="text-center ">Strategic Head of Publication</p>
           <br />
         </div>
-        <br />
       </div>
 
     </section>
