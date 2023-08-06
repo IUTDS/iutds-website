@@ -66,3 +66,9 @@ p {
   display: block;
   margin: 0 auto;
 }
+
+.horizontal-line{
+  width: 300px;
+  height: 3px;
+  background-color: brown;
+}
