@@ -56,7 +56,7 @@ const page = () => {
             <p className="text-gray-600">Email: vicepresident@example.com</p>
           </div>
         </div>
-        <div className='basis-1/2 text-center'>
+        <div className='basis-1/2 text-center drop-shadow-xl'>
           <Map />
         </div>
       </div>
