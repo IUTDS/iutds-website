@@ -12,6 +12,7 @@ export default function Home() {
         Where logic meets rhetoric and prudence meets eloquence
       </h2>
       <Overview />
+
       <h1 className="mt-10 head_text text-center">More About Us</h1>
       <p className="mt-5 text-center text-gray-600">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, amet
