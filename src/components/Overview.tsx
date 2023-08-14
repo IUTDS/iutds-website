@@ -4,7 +4,7 @@ import IUTDS_Group_Photo from "public/assets/images/IUTDS_Group_Photo.jpg";
 
 const Overview = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center py-10 container mx-auto">
+    <div className="flex flex-col md:flex-row items-center md:py-10 container mx-auto">
       <div className="md:w-3/4 md:py-10 md:px-10">
         <h1 className="head_text relative inline-block">
           Overview

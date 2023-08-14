@@ -47,7 +47,7 @@ p {
 }
 
 .sub-head_text {
-  @apply tracking-wide leading-[1.15] text-black md:text-xl text-sm;
+  @apply tracking-wide leading-[1.15] text-black md:text-xl font-light text-xs;
 }
 
 .body_text {
