@@ -20,7 +20,7 @@ const achievements = () => {
         <h1 className='font-bold text-xl mt-2'>Australasian Intervarsity Debating Championships 2023</h1>
         <div className='horizontal-line my-4'></div>
         Every year, teams from universities in the Australasian region compete in the 
-        Australasian Intervarsity Debating Championships, or &qout;Australs.&qout; In 2023, it 
+        Australasian Intervarsity Debating Championships, or &ldquo;Australs.&rdquo; In 2023, it 
         was held in Krabi, Thailand.  It is one of the largest debating tournaments in 
         the world, second only in size to the World Universities Debating Championships 
         (WUDC). Team IUT, consisting of Tamim Ahmed, Tanzim Noor Tanmoy, and Evan Ashfaque, 
@@ -158,7 +158,7 @@ const achievements = () => {
         <p className='mx-4 p-4'>
         <h1 className='font-bold text-xl mt-2'>Over The Wall &apos;22 Champions by Marico</h1>
         <div className='horizontal-line my-4'></div>
-        Marico&apos;s &qout;Over the Wall&qout; is its flagship business case competition, held nationally. Winners 
+        Marico&apos;s &rdquo;Over the Wall&ldquo; is its flagship business case competition, held nationally. Winners 
         from the national stage go on to participate in the international stage in Mumbai each year.
 
         Unsurprisingly, IUT Debating Society&apos;s own Sakif Ahbab, Ihfaz Hassan along with team mate Jafrin 
