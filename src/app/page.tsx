@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Overview from "@/components/Overview";
+import Achivements from "@/components/Achivements";
 
 export default function Home() {
   return (
@@ -11,8 +12,10 @@ export default function Home() {
       <h2 className="sub-head_text text-center">
         Where logic meets rhetoric and prudence meets eloquence
       </h2>
-      <Overview />
-
+      <div className="mx-auto max-w-5/6">
+        <Overview />
+        <Achivements />
+      </div>
       <h1 className="mt-10 head_text text-center">More About Us</h1>
       <p className="mt-5 text-center text-gray-600">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, amet
