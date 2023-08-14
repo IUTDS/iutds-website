@@ -4,10 +4,13 @@ import Image from 'next/image';
 const Page = () => {
   return (
     <section className="w-full flex-center flex-col">
-      <br />
-      <h1 className="head_text text-center ">EC Panel</h1>
+      <h1 className="head_text text-center my-4">EC Panel</h1>
       {/* President */}
-      <div className="flex-center" style={{ marginTop: '20px' }}>
+      <h2 className="head_text text-center">President</h2>
+      <div className='flex justify-center items-center mt-2'>
+        <div className='horizontal-line'></div>
+      </div>
+      <div className="flex-center mt-4">
         <Image 
           className="center-image"
           width={300} height={250} 
@@ -15,13 +18,14 @@ const Page = () => {
           alt="President, IUTDS" 
          />
         <br />
-        <p className="text-center ">President</p>
       </div>
       {/* Vice-President */}
-      <br /> 
       <h2 className="head_text text-center ">Vice President</h2>
+      <div className='flex justify-center items-center mt-2'>
+        <div className='horizontal-line'></div>
+      </div>
       <br />
-      <div className="flex justify-evenly">
+      <div className="md:flex md:justify-evenly sm:grid sm:grid-rows-1">
         <div>
         <Image 
           className="center-image"
@@ -30,7 +34,6 @@ const Page = () => {
           alt="Vice-president(Admin), IUTDS" 
          />
           <br />
-          <p className="text-center ">Vice-president (Administration)</p>
         </div>
         <div>
         <Image 
@@ -40,7 +43,6 @@ const Page = () => {
           alt="Vice-president(Operations), IUTDS" 
          />
           <br />
-          <p className="text-center ">Vice-president (Operations)</p>
         </div>
         <div>
 
@@ -51,7 +53,6 @@ const Page = () => {
           alt="Vice-president(Operations), IUTDS" 
          />
           <br />
-          <p className="text-center ">Vice-president (Accounts & Development)</p>
         </div>
         <div>
 
@@ -62,14 +63,16 @@ const Page = () => {
           alt="Vice-president(Debate and Workshop), IUTDS" 
          />
           <br />
-          <p className="text-center ">Vice-president (Debate & Workshop)</p>
         </div>
       </div>
       {/* Directors */}
       <br /> 
       <h2 className="head_text text-center ">Directors</h2>
+      <div className='flex justify-center items-center mt-2'>
+        <div className='horizontal-line'></div>
+      </div>
       <br />
-      <div className="flex justify-evenly">
+      <div className="md:flex md:justify-evenly sm:grid sm:grid-rows-1">
         <div>
           <Image 
             className="center-image"
@@ -78,7 +81,6 @@ const Page = () => {
             alt="Director(Administration), IUTDS" 
           />
           <br />
-          <p className="text-center ">Director (Administration)</p>
         </div>
         <div>
           <Image 
@@ -88,7 +90,6 @@ const Page = () => {
               alt="Director(Creative), IUTDS" 
             />
           <br />
-          <p className="text-center ">Director (Creative)</p>
         </div>
         <div>
           <Image 
@@ -98,7 +99,6 @@ const Page = () => {
               alt="Director(Logistics), IUTDS" 
             />
           <br />
-          <p className="text-center ">Director (Logistics)</p>
         </div>
         <div>
           <Image 
@@ -108,15 +108,17 @@ const Page = () => {
               alt="Director(Publication), IUTDS" 
             />
           <br />
-          <p className="text-center ">Director (Publication)</p>
         </div>
       </div>
 
       {/* Heads */}
       <br /> 
       <h2 className="head_text text-center ">Head of Departments</h2>
+      <div className='flex justify-center items-center mt-2'>
+        <div className='horizontal-line'></div>
+      </div>
       <br />
-      <div className="flex justify-evenly">
+      <div className="md:flex md:justify-evenly sm:grid sm:grid-rows-1">
         <div>
           <Image 
               className="center-image"
@@ -125,7 +127,6 @@ const Page = () => {
               alt="Head (Debate & Workshop), IUTDS" 
             />
           <br />
-          <p className="text-center ">Head (Debate & Workshop)</p>
         </div>
         <div>
           <Image 
@@ -135,7 +136,6 @@ const Page = () => {
               alt="Head (Branding), IUTDS" 
             />
           <br />
-          <p className="text-center ">Head (Branding)</p>
         </div>
         <div>
           <Image 
@@ -145,7 +145,6 @@ const Page = () => {
               alt="Head (Communication), IUTDS" 
             />
           <br />
-          <p className="text-center ">Head (Communication)</p>
         </div>
         <div>
           <Image 
@@ -155,14 +154,16 @@ const Page = () => {
               alt="Head (Content), IUTDS" 
             />
           <br />
-          <p className="text-center ">Head (Content)</p>
         </div>
       </div>
       {/* Strategic Heads */}
       <br /> 
       <h2 className="head_text text-center ">Strategic Heads</h2>
+      <div className='flex justify-center items-center mt-2'>
+        <div className='horizontal-line'></div>
+      </div>
       <br />
-      <div className="flex justify-evenly">
+      <div className="md:flex md:justify-evenly sm:grid sm:grid-rows-1">
         <div>
           <Image 
               className="center-image"
@@ -171,7 +172,6 @@ const Page = () => {
               alt="Strategic Head of Creative , IUTDS"
             />
           <br />
-          <p className="text-center ">Strategic Head of Creative</p>
         </div>
         <div>
           <Image 
@@ -181,7 +181,6 @@ const Page = () => {
               alt="Strategic Head of Events , IUTDS"
             />
           <br />
-          <p className="text-center ">Strategic Head of Events</p>
         </div>
         <div>
           <Image 
@@ -191,12 +190,11 @@ const Page = () => {
               alt="Strategic Head of Liaison , IUTDS"
             />
           <br />
-          <p className="text-center ">Strategic Head of Liaison</p>
         </div>
         
       </div>
       
-      <div className="flex justify-evenly" style={{ marginTop: '20px' }}>
+      <div className="md:flex md:justify-evenly sm:grid sm:grid-rows-1" style={{ marginTop: '20px' }}>
         <div>
           <Image 
               className="center-image"
@@ -205,7 +203,6 @@ const Page = () => {
               alt="Strategic Head of Liaison , IUTDS"
             />
           <br />
-          <p className="text-center ">Strategic Head of Marketing</p>
         </div>
         <div>
           <Image 
@@ -215,7 +212,6 @@ const Page = () => {
               alt="Strategic Head of Liaison , IUTDS"
             />
           <br />
-          <p className="text-center ">Strategic Head of Publication</p>
           <br />
         </div>
       </div>
