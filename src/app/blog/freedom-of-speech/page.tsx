@@ -10,9 +10,8 @@ const page = () => {
         <h1 className='text-lg text-center my-4 text-slate-600'>
             Author: Jubayer Fayej Mahi
         </h1>
-
         <p className='text-lg mx-24 my-4 text-slate-700'>
-            “If freedom of speech is taken away, then dumb and silent we may be led, like sheep to the slaughter.”
+        &quot;If freedom of speech is taken away, then dumb and silent we may be led, like sheep to the slaughter.&quot;
             ― George Washington
         </p>
 
@@ -21,7 +20,7 @@ const page = () => {
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
-            “If liberty means anything at all, it means the right to tell people what they do not want to hear.”
+        &quot;If liberty means anything at all, it means the right to tell people what they do not want to hear.&quot;
             ― George Orwell
         </p>
         
@@ -63,7 +62,7 @@ const page = () => {
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
-        “Whoever would overthrow the liberty of a nation must begin by subduing the freeness of speech.”
+        &quot;Whoever would overthrow the liberty of a nation must begin by subduing the freeness of speech.&quot;
 ― Benjamin Franklin
         </p>
 
