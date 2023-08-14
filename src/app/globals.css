@@ -43,11 +43,15 @@ p {
 }
 
 .head_text {
-  @apply tracking-tight text-sm font-extrabold leading-[1.15] text-black sm:text-4xl;
+  @apply tracking-tight font-extrabold leading-[1.15] text-black md:text-4xl text-lg;
 }
 
 .sub-head_text {
-  @apply tracking-wide text-sm leading-[1.15] text-black sm:text-xl;
+  @apply tracking-wide leading-[1.15] text-black md:text-xl font-light text-xs;
+}
+
+.body_text {
+  @apply mt-6 md:text-xl text-sm font-light text-slate-800;
 }
 
 .purple_gradient {
@@ -67,7 +71,7 @@ p {
   margin: 0 auto;
 }
 
-.horizontal-line{
+.horizontal-line {
   width: 300px;
   height: 3px;
   background-color: brown;
