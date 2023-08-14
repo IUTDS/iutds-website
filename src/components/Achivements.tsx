@@ -16,9 +16,32 @@ const Achivements = () => {
       <div className="md:w-3/4 md:py-10 md:px-10">
         <h1 className="head_text relative inline-block">Achivements</h1>
         <AchievementLine
-          tournament="Krabi Australs"
-          position="Champions"
-          year={2023}
+          tournament="Krabi Australs 2023"
+          position="EFL Champions"
+          date="July 2023"
+          members="IUT ET - Tanzim Noor Tanmoy, Tamim Ahmed, Evan Ashfaque"
+          info="EFL Speaker Breaks - Tanmoy (7th), Tamim (8th), Debater of the Final (Tamim)"
+        />
+        <AchievementLine
+          tournament="AUW Debate Championship 2023"
+          position="Open Finalist (IUT ET), Novice Champion (IUT IT)"
+          date="July 2023"
+          members="IUT ET - Tamim & Evan, IUT IT - Ishraq & Taimum"
+          info="Open Speaker Breaks - DOT (Evan), 3rd Best Speaker (Tamim)"
+        />
+        <AchievementLine
+          tournament="11th BUETDC Nationals 2023"
+          position="Open Finalist"
+          date="July 2023"
+          members="IUT ET - Tamim Ahmed & Evan Ashfaque"
+          info=""
+        />
+        <AchievementLine
+          tournament="Malaysia UADC 2023"
+          position="EFL Runner-up"
+          date="June 2023"
+          members="IUT ET - Tanzim Noor Tanmoy, Tamim Ahmed, Evan Ashfaque"
+          info=""
         />
         {/* <p className="body_text">
           IUTDS is the pillar of igniting intellect in a symphony of discourse.
