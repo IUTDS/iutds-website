@@ -29,11 +29,11 @@ const page = () => {
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
-            The French Revolution (1789–1799), one of the most important episodes in the history of democracy, took place in an atmosphere of intense social and political unrest. The values of freedom, equality, and fraternity propelled the French Revolution against an oppressive monarchy. The free expression of ideas via newspapers, pamphlets, and public speeches was essential to the revolution. People like Maximilien Robespierre and Jean-Paul Marat made use of the media's capacity to influence public opinion and mobilize the populace to seek democratic reforms.
+            The French Revolution (1789–1799), one of the most important episodes in the history of democracy, took place in an atmosphere of intense social and political unrest. The values of freedom, equality, and fraternity propelled the French Revolution against an oppressive monarchy. The free expression of ideas via newspapers, pamphlets, and public speeches was essential to the revolution. People like Maximilien Robespierre and Jean-Paul Marat made use of the media&apos;s capacity to influence public opinion and mobilize the populace to seek democratic reforms.
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
-            The American Civil Rights Movement (1955-1968) was a revolutionary fight for racial equality that was founded on democratic ideals. The campaign, which was led by notable individuals like Martin Luther King Jr., aimed to eradicate institutionalized racism and segregation. The movement's most effective tools were free speech and nonviolent protest, which allowed activists to challenge discriminatory legislation, address social inequities, and enlist public support. Strong orations, like King's "I Have a Dream" speech, which exposed the inequity
+            The American Civil Rights Movement (1955-1968) was a revolutionary fight for racial equality that was founded on democratic ideals. The campaign, which was led by notable individuals like Martin Luther King Jr., aimed to eradicate institutionalized racism and segregation. The movement&apos;s most effective tools were free speech and nonviolent protest, which allowed activists to challenge discriminatory legislation, address social inequities, and enlist public support. Strong orations, like King&apos;s &quot;I Have a Dream&quot; speech, which exposed the inequity
             suffered by African Americans and stoked support for civil rights reforms, prompted significant societal change.
         </p>
 
@@ -58,7 +58,7 @@ const page = () => {
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
-            From historical movements to modern-day challenges, the right to express one's thoughts openly and engage in constructive debates has proven essential for progress and social change. As we navigate the complexities of the future, safeguarding these principles and nurturing democratic discourse will be critical in ensuring a vibrant and inclusive society for all.
+            From historical movements to modern-day challenges, the right to express one&apos;s thoughts openly and engage in constructive debates has proven essential for progress and social change. As we navigate the complexities of the future, safeguarding these principles and nurturing democratic discourse will be critical in ensuring a vibrant and inclusive society for all.
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>

@@ -20,7 +20,7 @@ const achievements = () => {
         <h1 className='font-bold text-xl mt-2'>Australasian Intervarsity Debating Championships 2023</h1>
         <div className='horizontal-line my-4'></div>
         Every year, teams from universities in the Australasian region compete in the 
-        Australasian Intervarsity Debating Championships, or “Australs.” In 2023, it 
+        Australasian Intervarsity Debating Championships, or &qout;Australs.&qout; In 2023, it 
         was held in Krabi, Thailand.  It is one of the largest debating tournaments in 
         the world, second only in size to the World Universities Debating Championships 
         (WUDC). Team IUT, consisting of Tamim Ahmed, Tanzim Noor Tanmoy, and Evan Ashfaque, 
@@ -81,7 +81,7 @@ const achievements = () => {
     <div className='container mx-16 my-8'>
       <div className='flex justify-around shadow-xl rounded-lg'>
         <p className='mx-4 p-4'>
-        <h1 className='font-bold text-xl mt-2'>Novice Champion, EWUDC SPREE '22</h1>
+        <h1 className='font-bold text-xl mt-2'>Novice Champion, EWUDC SPREE &apos;22</h1>
         <div className='horizontal-line my-4'></div>
         EWUDC SPREE serves as the prominent yearly inter-varsity debate competition meticulously 
         orchestrated by the East-West University Debating Club. Remarkably, in the year 2022, a duo 
@@ -113,8 +113,8 @@ const achievements = () => {
         premier annual event, well-regarded within the debate circuit for its longstanding tradition. 
         In this prestigious tournament, Raiyan Ibne Hossain has been honored with the distinguished 
         accolade of being ranked as the 4th Best Adjudicator in the renowned 33rd NDDC Nationals 2022 
-        Inter-School English BP Tournament. The NDDC Nationals' enduring legacy and Raiyan's remarkable 
-        performance together contribute to the event's reputation as one of the esteemed tournaments in 
+        Inter-School English BP Tournament. The NDDC Nationals&apos; enduring legacy and Raiyan&apos;s remarkable 
+        performance together contribute to the event&apos;s reputation as one of the esteemed tournaments in 
         the domain of competitive debating.
         </p>
       </div>
@@ -129,7 +129,7 @@ const achievements = () => {
         (BUP), is one of the most prestigious debate competitions in Bangladesh. Participants from 
         universities across the country gather to showcase their debating skills and engage in intellectual
         discourse on a wide range of topics. This highly competitive tournament not only cultivates 
-        critical thinking and public speaking abilities but also fosters participants' self-confidence and 
+        critical thinking and public speaking abilities but also fosters participants&apos; self-confidence and 
         self-esteem. In the novice English segment of BUP IV, Alif Arshad and Sajid Chowdhury became 
         champions as IUT A, with Alif Arshad also earning the title of Debater of the Final. Their 
         exceptional achievements highlight the talent and dedication present within the debating community.
@@ -156,13 +156,13 @@ const achievements = () => {
           alt="President, IUTDS" 
          />
         <p className='mx-4 p-4'>
-        <h1 className='font-bold text-xl mt-2'>Over The Wall '22 Champions by Marico</h1>
+        <h1 className='font-bold text-xl mt-2'>Over The Wall &apos;22 Champions by Marico</h1>
         <div className='horizontal-line my-4'></div>
-        Marico's “Over the Wall” is its flagship business case competition, held nationally. Winners 
+        Marico&apos;s &qout;Over the Wall&qout; is its flagship business case competition, held nationally. Winners 
         from the national stage go on to participate in the international stage in Mumbai each year.
 
-        Unsurprisingly, IUT Debating Society's own Sakif Ahbab, Ihfaz Hassan along with team mate Jafrin 
-        Rahman Nahin as “Sharks in Suit” became the national champions of Over The Wall '22. The three of 
+        Unsurprisingly, IUT Debating Society&apos;s own Sakif Ahbab, Ihfaz Hassan along with team mate Jafrin 
+        Rahman Nahin as “Sharks in Suit” became the national champions of Over The Wall &apos;22. The three of 
         them went on to attend the global finals and even an exclusive internship program.
 
         </p>

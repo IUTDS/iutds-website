@@ -12,7 +12,7 @@ const page = () => {
         </h1>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
-            Let’s fasten our seatbelt and indulge ourselves into interesting world of debating. Debating-the word that whispers into our mind as argumentation and acceptance regarding a thought. Do you want to learn an interesting fact about debating? Well debating is the verb form of “debate” which came from the Latin word “dis-battere” which means to fight. I know it’s controversial to your opinion. As a debater, your point of view might be different. From the word of origin, we can say that debating in the ancient times must be picking up fights. Now let’s see the point of views of our generation Z peoples about debating. According to some, debating is an effective way of exchanging point of views and keeping oneself open to opinions that differ from their point of view. Again, some says It’s a sport that they think makes them more rational, logical and a bit confident than an average reasonable person. In some others opinion debating is arguing for or against a motion and rebuttal your opposition with facts and logics. According to some it is their ideal world. So, concept of debating varies from person to person.
+            Let&apos;s fasten our seatbelt and indulge ourselves into interesting world of debating. Debating-the word that whispers into our mind as argumentation and acceptance regarding a thought. Do you want to learn an interesting fact about debating? Well debating is the verb form of &quot;debate&quot; which came from the Latin word &quot;dis-battere&quot; which means to fight. I know it&apos;s controversial to your opinion. As a debater, your point of view might be different. From the word of origin, we can say that debating in the ancient times must be picking up fights. Now let&apos;s see the point of views of our generation Z peoples about debating. According to some, debating is an effective way of exchanging point of views and keeping oneself open to opinions that differ from their point of view. Again, some says It&apos;s a sport that they think makes them more rational, logical and a bit confident than an average reasonable person. In some others opinion debating is arguing for or against a motion and rebuttal your opposition with facts and logics. According to some it is their ideal world. So, concept of debating varies from person to person.
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
@@ -28,7 +28,7 @@ const page = () => {
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
-            “Debating allows us to examine different perspectives and find common ground for the betterment of our civic community." 
+        &quot;Debating allows us to examine different perspectives and find common ground for the betterment of our civic community.&quot;
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
@@ -36,15 +36,15 @@ const page = () => {
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
-            “In the clash of ideas, the true victor is not the one who shouts the loudest, but the one who presents the most compelling arguments." 
+        &quot;In the clash of ideas, the true victor is not the one who shouts the loudest, but the one who presents the most compelling arguments.&quot; 
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
-            Being a debater, you get to value other’s opinion. Debating nurtures tolerance and empathy by exposing individuals to diverse perspectives and experiences. In a democratic society, respecting and understanding different viewpoints is vital for maintaining social cohesion. Giving others the chance of constructive criticism, debating allows us to protect others independence. Ruth Bader Ginsburg stated that
+            Being a debater, you get to value other&apos;s opinion. Debating nurtures tolerance and empathy by exposing individuals to diverse perspectives and experiences. In a democratic society, respecting and understanding different viewpoints is vital for maintaining social cohesion. Giving others the chance of constructive criticism, debating allows us to protect others independence. Ruth Bader Ginsburg stated that
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
-            “A good debater is not only one who can present a convincing argument but also one who can listen and learn from others."
+        &quot;A good debater is not only one who can present a convincing argument but also one who can listen and learn from others.&quot;
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
@@ -52,7 +52,7 @@ const page = () => {
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
-            We all know, we all are born without our will or consent. To make our birth meaning full, we need to leave a meaningful and remarkable life. For doing so self-realization is very important. So, debating creates self-realization in mind which eventually leads to freedom of people. Lastly,” Debate is the oxygen of democracy. Without it, democracy suffocates." - David McCullough.
+            We all know, we all are born without our will or consent. To make our birth meaning full, we need to leave a meaningful and remarkable life. For doing so self-realization is very important. So, debating creates self-realization in mind which eventually leads to freedom of people. Lastly,&quot; Debate is the oxygen of democracy. Without it, democracy suffocates.&quot; - David McCullough.
         </p>
 
         

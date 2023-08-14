@@ -16,11 +16,11 @@ const page = () => {
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
-            At the heart of the art of persuasion lies a profound comprehension of human psychology. Each individual possesses a unique set of beliefs, values, and experiences. These three shape their perspectives. To be a persuasive communicator, one must go beyond surface-level understanding, one must dive deep into the intricacies of the human psyche. In order to do that, a person requires empathy and the ability to see the world through another's eyes. It also requires a true grasp of their hopes, fears, and aspirations.
+            At the heart of the art of persuasion lies a profound comprehension of human psychology. Each individual possesses a unique set of beliefs, values, and experiences. These three shape their perspectives. To be a persuasive communicator, one must go beyond surface-level understanding, one must dive deep into the intricacies of the human psyche. In order to do that, a person requires empathy and the ability to see the world through another&apos;s eyes. It also requires a true grasp of their hopes, fears, and aspirations.
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
-            A persuasive argument is like a compelling story. You have to capture attention, and stir emotions. A persuasive argument harmonizes three key elements: ethos, pathos, and logos. It starts with a strong narrative structure, weaving together ethos, pathos, and logos into a seamless tapestry. Ethos establishes credibility and trust, showcasing the speaker's authenticity and expertise. Pathos tugs at the heartstrings, evoking emotions that resonate with the audience. Logos employs logical reasoning and evidence to build a solid foundation for the argument.
+            A persuasive argument is like a compelling story. You have to capture attention, and stir emotions. A persuasive argument harmonizes three key elements: ethos, pathos, and logos. It starts with a strong narrative structure, weaving together ethos, pathos, and logos into a seamless tapestry. Ethos establishes credibility and trust, showcasing the speaker&apos;s authenticity and expertise. Pathos tugs at the heartstrings, evoking emotions that resonate with the audience. Logos employs logical reasoning and evidence to build a solid foundation for the argument.
         </p>
         
         <p className='text-lg mx-24 my-4 text-slate-700'>
@@ -36,7 +36,7 @@ const page = () => {
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
-            The art of persuasion is not about domination. It's all about collaboration. It is about finding common ground and shared goals. Persuasion becomes more effective when it is approached as a dialogue rather than a battle. For that we must invite diverse voices, encourage constructive debates, and foster an inclusive environment to empower others to express their thoughts and contribute to the collective understanding. Through collaboration, we tap into the collective intelligence and harness the power of unity.
+            The art of persuasion is not about domination. It&apos;s all about collaboration. It is about finding common ground and shared goals. Persuasion becomes more effective when it is approached as a dialogue rather than a battle. For that we must invite diverse voices, encourage constructive debates, and foster an inclusive environment to empower others to express their thoughts and contribute to the collective understanding. Through collaboration, we tap into the collective intelligence and harness the power of unity.
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>

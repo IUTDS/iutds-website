@@ -12,7 +12,7 @@ const page = () => {
         </h1>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
-            “The real victory is in your hands once you can get over your limitations”—winning, losing, or the end does not matter when one has already enriched his abilities. One has to lose things to win other things. Sometimes we become so hopeless about our activities that we frequently ask ourselves what has happened to us and why we can't win. The same thing also happens when we debate.
+        &quot;The real victory is in your hands once you can get over your limitations&quot;—winning, losing, or the end does not matter when one has already enriched his abilities. One has to lose things to win other things. Sometimes we become so hopeless about our activities that we frequently ask ourselves what has happened to us and why we can&apos;t win. The same thing also happens when we debate.
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
@@ -20,11 +20,11 @@ const page = () => {
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
-            One can be confident in everything, to start with. Having faith in ourselves provides us the power to defeat our foes. It gives us the drive to exploit our adversary's vulnerability. It appears that I am the base's pillar, which is made up of numerous bricks and a firm commitment to endure no matter what happens. Life becomes simple for an introvert if they are able to interact with people without feeling awkward. Being confident makes hidden skills come to light. In a crowd, the ability to speak up comes from the sense of becoming capable of accomplishing particular things.
+            One can be confident in everything, to start with. Having faith in ourselves provides us the power to defeat our foes. It gives us the drive to exploit our adversary&apos;s vulnerability. It appears that I am the base&apos;s pillar, which is made up of numerous bricks and a firm commitment to endure no matter what happens. Life becomes simple for an introvert if they are able to interact with people without feeling awkward. Being confident makes hidden skills come to light. In a crowd, the ability to speak up comes from the sense of becoming capable of accomplishing particular things.
         </p>
         
         <p className='text-lg mx-24 my-4 text-slate-700'>
-            It makes sense that one's competitors would succumb to them when they are that strong. They experienced a complete loss of mental clarity and lost the ability to play with words. After that, they began to hear some applause. Then it seemed to them that they were no longer a circle without a point, but were now a circle full of points, where there were many happy emotions, such as cheering for their words, illuminating with laughter the recently discovered examples, and energizing me with their loud voices.
+            It makes sense that one&apos;s competitors would succumb to them when they are that strong. They experienced a complete loss of mental clarity and lost the ability to play with words. After that, they began to hear some applause. Then it seemed to them that they were no longer a circle without a point, but were now a circle full of points, where there were many happy emotions, such as cheering for their words, illuminating with laughter the recently discovered examples, and energizing me with their loud voices.
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
@@ -32,7 +32,7 @@ const page = () => {
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
-            The power of saying “no”. There is a lot of domestic violence everywhere in Bangladesh, a developing nation. In-home abuse primarily affects women and young girls. The power of saying no to others is something that debaters can learn. possess the capability to stop others from hurting them or the strength to fight against injustice or oppression.
+            The power of saying &quot;no&quot;. There is a lot of domestic violence everywhere in Bangladesh, a developing nation. In-home abuse primarily affects women and young girls. The power of saying no to others is something that debaters can learn. possess the capability to stop others from hurting them or the strength to fight against injustice or oppression.
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>

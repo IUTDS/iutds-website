@@ -16,7 +16,7 @@ const page = () => {
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
-            In this article we will focus more on how to sound important by uncovering the art of speaking. Whether you're delivering a presentation, engaging in a conversation, or addressing a crowd, effective speaking can significantly impact the message you convey. By mastering this art you will be able to speak with such conviction that will captivate your audience.
+            In this article we will focus more on how to sound important by uncovering the art of speaking. Whether you&apos;re delivering a presentation, engaging in a conversation, or addressing a crowd, effective speaking can significantly impact the message you convey. By mastering this art you will be able to speak with such conviction that will captivate your audience.
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
@@ -48,11 +48,11 @@ const page = () => {
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
-            This isn’t to say that words in the message are not important. Words are clearly important but this study indicates the significance of body language and how you present it. Because your body movement and voice gives a certain gravitas to your speech and elevates it to another dimension.
+            This isn&apos;t to say that words in the message are not important. Words are clearly important but this study indicates the significance of body language and how you present it. Because your body movement and voice gives a certain gravitas to your speech and elevates it to another dimension.
         </p>
         
         <p className='text-lg mx-24 my-4 text-slate-700'>
-            To add that gravitas there are some dos and don’ts. First in terms of voice and tonality, avoid monotonous voices. No one finds monotone or a robotic voice pleasant. Modulation of the voice is helpful here. To help with modulation your mouth and the 11 facial muscles is your best friend. Articulation or opening your mouth by working those 11 facial muscles will extensively improve your delivery and make your voice more profound and coherent.
+            To add that gravitas there are some dos and don&apos;ts. First in terms of voice and tonality, avoid monotonous voices. No one finds monotone or a robotic voice pleasant. Modulation of the voice is helpful here. To help with modulation your mouth and the 11 facial muscles is your best friend. Articulation or opening your mouth by working those 11 facial muscles will extensively improve your delivery and make your voice more profound and coherent.
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
@@ -68,11 +68,11 @@ const page = () => {
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
-            Finally, if there is one last bit of general no-brainer advice that I can give you is to practice. It may seem frivolous but practice is what will make you a natural speaker. To quote Dale Carnegie here, “Great speakers are not born, they're trained”. Make sure your speech has an end goal or objective that you want to fulfill through connecting with your audience.
+            Finally, if there is one last bit of general no-brainer advice that I can give you is to practice. It may seem frivolous but practice is what will make you a natural speaker. To quote Dale Carnegie here, &qout;Great speakers are not born, they&apos;re trained&qout;. Make sure your speech has an end goal or objective that you want to fulfill through connecting with your audience.
         </p>
 
         <p className='text-lg mx-24 my-4 text-slate-700'>
-            A speech is something that can change the course of one's life or even history. While the statement seems pretentious, speeches like Abraham Lincon’s Gettysburg Address, Martin King Luthers “I have a dream” are proof of the remarkable effect of a speech. Speech is power: speech is to persuade, to captivate, to conquer. One can do all that and more by Mastering the Art of Speaking.
+            A speech is something that can change the course of one&apos;s life or even history. While the statement seems pretentious, speeches like Abraham Lincon&apos;s Gettysburg Address, Martin King Luthers &apos;I have a dream&apos; are proof of the remarkable effect of a speech. Speech is power: speech is to persuade, to captivate, to conquer. One can do all that and more by Mastering the Art of Speaking.
         </p>
         
     </section>
