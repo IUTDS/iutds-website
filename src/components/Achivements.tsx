@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import IUTDS_Group_Photo from "public/assets/images/IUTDS_Group_Photo.jpg";
+import Australs_Photo from "public/achievements/PXL_20230708_150018239.jpg";
 import AchievementLine from "./AchievementLine";
 
 const Achivements = () => {
@@ -10,8 +10,8 @@ const Achivements = () => {
       <div className="w-full py-10 md:px-10 md:flex">
         <Image
           className="rounded-3xl w-full h-auto md:h-auto object-fill md:object-cover"
-          src={IUTDS_Group_Photo}
-          alt="IUTDS Group Photo"
+          src={Australs_Photo}
+          alt="Krabi Australs 2023"
         />
       </div>
       <div className="md:w-3/4 md:py-10 md:px-10">
