@@ -8,8 +8,8 @@ const achievements = () => {
         <h1 className="head_text text-center red_gradient mt-6">Achievements</h1>
     </section>
 
-    <div className='container mx-16 my-8'>
-      <div className='flex justify-around shadow-xl rounded-lg'>
+    <div className='md:container md:mx-16 my-8'>
+      <div className='md:flex md:justify-around sm:grid sm:grid-cols-1 sm-gap-14 shadow-xl rounded-lg'>
         <Image 
           className="center-image p-4"
           width={300} height={150} 
@@ -33,8 +33,8 @@ const achievements = () => {
       </div>
     </div>
 
-    <div className='container mx-16 my-8'>
-      <div className='flex justify-around shadow-xl rounded-lg'>
+    <div className='md:container md:mx-16 my-8'>
+      <div className='md:flex md:justify-around sm:grid sm:grid-cols-1 sm:gap-14 shadow-xl rounded-lg'>
         <p className='mx-4 p-4'>
         <h1 className='font-bold text-xl mt-2'>United Asian Debating Championship (UADC) 2023</h1>
         <div className='horizontal-line my-4'></div>
@@ -56,8 +56,8 @@ const achievements = () => {
       </div>
     </div>
 
-    <div className='container mx-16 my-8'>
-      <div className='flex justify-around shadow-xl rounded-lg'>
+    <div className='md:container md:mx-16 my-8'>
+      <div className='md:flex md:justify-around sm:grid sm:grid-cols-1 sm-gap-14 shadow-xl rounded-lg'>
         <Image 
           className="center-image p-4"
           width={300} height={250} 
@@ -78,8 +78,8 @@ const achievements = () => {
       </div>
     </div>
 
-    <div className='container mx-16 my-8'>
-      <div className='flex justify-around shadow-xl rounded-lg'>
+    <div className='md:container md:mx-16 my-8'>
+      <div className='md:flex md:justify-around sm:grid sm:grid-cols-1 sm-gap-14 shadow-xl rounded-lg'>
         <p className='mx-4 p-4'>
         <h1 className='font-bold text-xl mt-2'>Novice Champion, EWUDC SPREE &apos;22</h1>
         <div className='horizontal-line my-4'></div>
@@ -98,8 +98,8 @@ const achievements = () => {
       </div>
     </div>
 
-    <div className='container mx-16 my-8'>
-      <div className='flex justify-around shadow-xl rounded-lg'>
+    <div className='md:container md:mx-16 my-8'>
+      <div className='md:flex md:justify-around sm:grid sm:grid-cols-1 sm-gap-14 shadow-xl rounded-lg'>
         <Image 
           className="center-image p-4"
           width={300} height={250} 
@@ -120,8 +120,8 @@ const achievements = () => {
       </div>
     </div>
 
-    <div className='container mx-16 my-8'>
-      <div className='flex justify-around shadow-xl rounded-lg'>
+    <div className='md:container md:mx-16 my-8'>
+      <div className='md:flex md:justify-around sm:grid sm:grid-cols-1 sm-gap-14 shadow-xl rounded-lg'>
         <p className='mx-4 p-4'>
         <h1 className='font-bold text-xl mt-2'>BUP IV 2021</h1>
         <div className='horizontal-line my-4'></div>
@@ -147,8 +147,8 @@ const achievements = () => {
         <h1 className="head_text text-center red_gradient mt-6">Beyond Debating</h1>
     </section>
 
-    <div className='container mx-16 my-8'>
-      <div className='flex justify-around shadow-xl rounded-lg'>
+    <div className='md:container md:mx-16 my-8'>
+      <div className='md:flex md:justify-around sm:grid sm:grid-cols-1 sm-gap-14 shadow-xl rounded-lg'>
         <Image 
           className="center-image p-4"
           width={300} height={250} 
@@ -169,8 +169,8 @@ const achievements = () => {
       </div>
     </div>
 
-    <div className='container mx-16 my-8'>
-      <div className='flex justify-around shadow-xl rounded-lg'>
+    <div className='md:container md:mx-16 my-8'>
+      <div className='md:flex md:justify-around sm:grid sm:grid-cols-1 sm-gap-14 shadow-xl rounded-lg'>
         <p className='mx-4 p-4'>
         <h1 className='font-bold text-xl mt-2'>Champion at GP Academy</h1>
         <div className='horizontal-line my-4'></div>
