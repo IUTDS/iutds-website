@@ -51,7 +51,7 @@ p {
 }
 
 .body_text {
-  @apply mt-6 md:text-xl text-sm font-light text-slate-800;
+  @apply md:text-xl text-sm font-light text-slate-800;
 }
 
 .purple_gradient {

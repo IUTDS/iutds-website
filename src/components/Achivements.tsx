@@ -15,7 +15,11 @@ const Achivements = () => {
         />
       </div>
       <div className="md:w-3/4 md:py-10 md:px-10">
-        <h1 className="head_text relative inline-block">Achivements</h1>
+        <h1 className="head_text relative inline-block">
+          Achivements
+          <div className="absolute bottom-0 left-0 w-1/2 h-1 bg-iutdsred transform translate-y-1"></div>
+        </h1>
+        <div className="pt-5"></div>
         <AchievementLine
           tournament="Krabi Australs 2023"
           position="EFL Champions"
@@ -47,7 +51,7 @@ const Achivements = () => {
         <div className="mt-5 flex justify-end">
           <Link
             href="/achievements"
-            className="uppercase tracking-widest text-black text-xl font-light border-b-2 transition duration-300 border-transparent hover:border-iutdsred"
+            className="uppercase tracking-widest text-black md:text-xl text-sm font-light border-b-2 transition duration-300 border-transparent hover:border-iutdsred"
           >
             ...And Much More
           </Link>

@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-[#000000] py-3">
-      <nav className="flex justify-between items-center w-[92%] mx-auto ">
+      <nav className="flex justify-between items-center w-[92%] mx-auto z-10">
         <Link href="\">
           <div mt-5>
             <Image
@@ -34,7 +34,7 @@ const Navbar = () => {
                             md:static absolute
                             md:min-h-fit min-h-[60vh] left-0 
                             top-[-100%] md:w-auto  w-full flex items-center px-5
-                            bg-[#000000]"
+                            bg-[#000000] z-10"
         >
           <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
             <li>
@@ -67,11 +67,8 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="flex items-center gap-6">
-          <div
-            className="text-3xl cursor-pointer md:hidden"
-            onClick={toggleMenu}
-          >
+        <div className="flex items-center gap-6 z-10">
+          <div className="text-3xl cursor-pointer" onClick={toggleMenu}>
             {isMenuOpen ? <Menu color="white" /> : <X color="white" />}
           </div>
         </div>

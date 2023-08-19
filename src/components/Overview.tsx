@@ -10,7 +10,7 @@ const Overview = () => {
           Overview
           <div className="absolute bottom-0 left-0 w-1/2 h-1 bg-iutdsred transform translate-y-1"></div>
         </h1>
-        <p className="body_text">
+        <p className="body_text mt-6">
           IUTDS is the pillar of igniting intellect in a symphony of discourse.
           Empowering voices in Bangladesh, IUTDS envisions a vibrant platform
           for constructive dialogue. Uniting youth from all walks of life, we
