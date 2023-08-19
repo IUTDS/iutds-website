@@ -3,10 +3,11 @@ import Image from "next/image";
 import Link from "next/link";
 import Australs_Photo from "public/achievements/PXL_20230708_150018239.jpg";
 import AchievementLine from "./AchievementLine";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Achivements = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center py-10 container mx-auto">
+    <div className="flex flex-col-reverse md:flex-row items-center py-10 container mx-auto">
       <div className="w-full py-10 md:px-10 md:flex">
         <Image
           className="rounded-3xl w-full h-auto md:h-auto object-fill md:object-cover"
@@ -49,24 +50,11 @@ const Achivements = () => {
           info=""
         />
         <div className="mt-5 flex justify-end">
-          <Link
-            href="/achievements"
-            className="uppercase tracking-widest text-black md:text-xl text-sm font-light border-b-2 transition duration-300 border-transparent hover:border-iutdsred"
-          >
-            ...And Much More
-          </Link>
+          <div className="flex items-center uppercase tracking-widest text-black md:text-xl text-sm font-light border-b-2 transition duration-300 border-transparent hover:border-iutdsred">
+            <Link href="/achievements">...And Much More</Link>
+            <AiOutlineArrowRight className="ml-1" />
+          </div>
         </div>
-        {/* <p className="body_text">
-          IUTDS is the pillar of igniting intellect in a symphony of discourse.
-          Empowering voices in Bangladesh, IUTDS envisions a vibrant platform
-          for constructive dialogue. Uniting youth from all walks of life, we
-          empower minds to articulate, empathize, ignite intellectual curiosity,
-          foster open-mindedness, and lead them to become the "Pioneers of
-          Excellence''. IUTDS aims to become Bangladesh's top debate
-          organization by shaping a harmonious future where ideas flourish and
-          positive change resonates nationwide, then ends up destined for
-          success.
-        </p> */}
       </div>
     </div>
   );

@@ -30,11 +30,13 @@ const TopBanner = () => {
           <div className="md:hidden mt-20">
             {" "}
             {/* Display only on smaller screens */}
-            <div className="tracking-tight font-extralight leading-[1.15] uppercase">
+            <div className="text-xl tracking-tight font-extralight leading-[1.15] uppercase">
               Welcome to{" "}
             </div>
-            <div className="head_text uppercase">IUT Debating Society</div>
-            <p className="sub-head_text">
+            <div className="text-3xl font-black uppercase">
+              IUT Debating Society
+            </div>
+            <p className="text-sm tracking-tightest">
               Where logic meets rhetoric and prudence meets eloquence
             </p>
           </div>

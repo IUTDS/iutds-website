@@ -68,7 +68,10 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex items-center gap-6 z-10">
-          <div className="text-3xl cursor-pointer" onClick={toggleMenu}>
+          <div
+            className="text-3xl cursor-pointer md:hidden"
+            onClick={toggleMenu}
+          >
             {isMenuOpen ? <Menu color="white" /> : <X color="white" />}
           </div>
         </div>

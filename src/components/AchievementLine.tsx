@@ -12,7 +12,7 @@ const AchievementLine = (props: AchievementLineProps) => {
   return (
     <div className="py-2">
       <div className="flex items-center justify-between">
-        <div className="max-w-1/2 tracking-wide leading-[1.15] text-black md:text-xl text-xs font-bold">
+        <div className="tracking-wide leading-[1.15] text-black md:text-xl text-base font-bold">
           {props.tournament}
         </div>
         <div className="mx-4 flex-grow border-t border-iutdsred mr-4"></div>
