@@ -2,23 +2,26 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { Menu, X } from "feather-icons-react";
+import { AiOutlineMenu } from "react-icons/ai";
+import { RxCross1 } from "react-icons/rx";
 import { useState } from "react";
 
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const navLinks = document.querySelector(".nav-links");
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
-    navLinks?.classList.toggle("top-[9%]");
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
   };
 
   return (
     <div className="bg-[#000000] py-3">
       <nav className="flex justify-between items-center w-[92%] mx-auto z-10">
-        <Link href="\">
-          <div mt-5>
+        <Link href="/">
+          <div className="mt-5">
             <Image
               className="text-white"
               width={70}
@@ -30,49 +33,47 @@ const Navbar = () => {
         </Link>
 
         <div
-          className="nav-links duration-500 
-                            md:static absolute
-                            md:min-h-fit min-h-[60vh] left-0 
-                            top-[-100%] md:w-auto  w-full flex items-center px-5
-                            bg-[#000000] z-10"
+          className={`nav-links duration-500 md:static absolute md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5 bg-[#000000] z-10 ${
+            isMenuOpen ? "top-[10.5%]" : ""
+          }`}
         >
           <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
-            <li>
+            <li onClick={closeMenu}>
               <Link
-                href="\about"
-                className="hover:text-iutdsred text-white text-xl"
+                href="/about"
+                className="hover:text-red-500 text-white text-xl"
               >
                 About
               </Link>
             </li>
-            <li>
+            <li onClick={closeMenu}>
               <Link
-                href="\panel"
-                className="hover:text-iutdsred text-white text-xl"
+                href="/panel"
+                className="hover:text-red-500 text-white text-xl"
               >
                 Panel
               </Link>
             </li>
-            <li>
+            <li onClick={closeMenu}>
               <Link
-                href="\programs"
-                className="hover:text-iutdsred text-white text-xl"
+                href="/programs"
+                className="hover:text-red-500 text-white text-xl"
               >
                 Events
               </Link>
             </li>
-            <li>
+            <li onClick={closeMenu}>
               <Link
-                href="\achievements"
-                className="hover:text-iutdsred text-white text-xl"
+                href="/achievements"
+                className="hover:text-red-500 text-white text-xl"
               >
                 Achievements
               </Link>
             </li>
-            <li>
+            <li onClick={closeMenu}>
               <Link
-                href="\blog"
-                className="hover:text-iutdsred text-white text-xl"
+                href="/blog"
+                className="hover:text-red-500 text-white text-xl"
               >
                 Blogs
               </Link>
@@ -84,7 +85,11 @@ const Navbar = () => {
             className="text-3xl cursor-pointer md:hidden"
             onClick={toggleMenu}
           >
-            {isMenuOpen ? <Menu color="white" /> : <X color="white" />}
+            {isMenuOpen ? (
+              <RxCross1 color="white" />
+            ) : (
+              <AiOutlineMenu color="white" />
+            )}
           </div>
         </div>
       </nav>
