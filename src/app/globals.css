@@ -54,6 +54,10 @@ p {
   @apply md:text-xl text-sm font-light text-slate-800;
 }
 
+.sub-body_text {
+  @apply md:text-lg text-sm font-light text-slate-800;
+}
+
 .purple_gradient {
   @apply bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-500 bg-clip-text text-transparent;
 }

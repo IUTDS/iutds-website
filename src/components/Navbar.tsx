@@ -40,7 +40,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="\about"
-                className="hover:text-iutdsred text-white text-xl"
+                className="hover:text-red-500 text-white text-xl"
               >
                 About
               </Link>
@@ -48,7 +48,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="\panel"
-                className="hover:text-iutdsred text-white text-xl"
+                className="hover:text-red-500 text-white text-xl"
               >
                 Panel
               </Link>
@@ -56,7 +56,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="\programs"
-                className="hover:text-iutdsred text-white text-xl"
+                className="hover:text-red-500 text-white text-xl"
               >
                 Events
               </Link>
@@ -64,7 +64,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="\achievements"
-                className="hover:text-iutdsred text-white text-xl"
+                className="hover:text-red-500 text-white text-xl"
               >
                 Achievements
               </Link>
@@ -72,7 +72,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="\blog"
-                className="hover:text-iutdsred text-white text-xl"
+                className="hover:text-red-500 text-white text-xl"
               >
                 Blogs
               </Link>
