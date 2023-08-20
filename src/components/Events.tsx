@@ -40,7 +40,7 @@ const Events = () => {
         />
         <InfoLine
           name="Greatness Express"
-          title="Intra-IUT Novice Tournament"
+          title="Intra-IUT Novice BP Tournament"
           date=""
           subtitle="Dedicated for the freshmen to ease them into the world of debating, 
           preceded by a series of friendly debate sessions"
@@ -50,8 +50,8 @@ const Events = () => {
           name="Cafe Debate"
           title="Club Day Show-Debate"
           date=""
-          subtitle="Fun, informal, exhilarating and passionate debate, by the alumni and current members. 
-          And lest we mention, promises donuts for all"
+          subtitle="Fun, informal and passionate debate, by the alumni and current members. 
+          And lest we mention, donuts for all"
           subsubtitle=""
         />
         <div className="mt-5 flex justify-end">

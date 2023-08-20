@@ -55,7 +55,7 @@ const Achivements = () => {
         />
         <div className="mt-5 flex justify-end">
           <div className="flex items-center uppercase tracking-widest text-black md:text-xl text-sm font-light border-b-2 transition duration-300 border-transparent hover:border-iutdsred">
-            <Link href="/achievements">...And Much More</Link>
+            <Link href="/achievements">...And So Much More</Link>
             <AiOutlineArrowRight className="ml-1" />
           </div>
         </div>
