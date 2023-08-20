@@ -7,7 +7,10 @@ const page = () => {
   return (
     <div className="container mx-auto py-8 px-4">
       <section className="mb-12">
-        <h2 className="head_text">About Us</h2>
+        <h2 className="head_text relative inline-block">
+          About Us
+          <div className="absolute bottom-0 left-0 w-1/2 h-1 bg-iutdsred transform translate-y-1"></div>
+        </h2>
         <p className="sub-body_text mt-5">
           The Islamic University of Technology Debating Society, or IUTDS, is a
           shining example of intellectual brilliance within the peaceful walls
@@ -50,7 +53,10 @@ const page = () => {
       </section>
 
       <section className="mb-12">
-        <h2 className="head_text">Our Vision</h2>
+        <h2 className="head_text relative inline-block">
+          Our Vision
+          <div className="absolute bottom-0 left-0 w-1/2 h-1 bg-iutdsred transform translate-y-1"></div>
+        </h2>
         <p className="sub-body_text mt-5">
           IUTDS hopes to surpass all others as Bangladesh's top debate
           organization. It wants all of these accomplishments to be proud
@@ -77,7 +83,10 @@ const page = () => {
       </section>
 
       <section className="mb-12">
-        <h2 className="head_text">Life after IUTDS</h2>
+        <h2 className="head_text relative inline-block">
+          Life after IUTDS
+          <div className="absolute bottom-0 left-0 w-1/2 h-1 bg-iutdsred transform translate-y-1"></div>
+        </h2>
         <p className="body_text mt-5">
           IUTDS is a big platform for unleashing brilliance not only in the
           sector of debate but also in many other sectors. By joining IUTDS our
@@ -103,7 +112,10 @@ const page = () => {
         </p>
       </section>
 
-      <h2 className="head_text">Contact Us</h2>
+      <h2 className="head_text relative inline-block">
+        Contact Us
+        <div className="absolute bottom-0 left-0 w-1/2 h-1 bg-iutdsred transform translate-y-1"></div>
+      </h2>
       <div className="flex md:flex-row flex-col mt-5">
         <div className="basis-1/2 flex-row">
           <div className="w-full mb-4">
