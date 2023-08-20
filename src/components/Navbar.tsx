@@ -38,30 +38,42 @@ const Navbar = () => {
         >
           <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
             <li>
-              <Link href="\about" className="hover:text-iutdsred text-white">
+              <Link
+                href="\about"
+                className="hover:text-iutdsred text-white text-xl"
+              >
                 About
               </Link>
             </li>
             <li>
-              <Link href="\panel" className="hover:text-gray-500 text-white">
+              <Link
+                href="\panel"
+                className="hover:text-iutdsred text-white text-xl"
+              >
                 Panel
               </Link>
             </li>
             <li>
-              <Link href="\programs" className="hover:text-gray-500 text-white">
+              <Link
+                href="\programs"
+                className="hover:text-iutdsred text-white text-xl"
+              >
                 Events
               </Link>
             </li>
             <li>
               <Link
                 href="\achievements"
-                className="hover:text-gray-500 text-white"
+                className="hover:text-iutdsred text-white text-xl"
               >
                 Achievements
               </Link>
             </li>
             <li>
-              <Link href="\blog" className="hover:text-gray-500 text-white">
+              <Link
+                href="\blog"
+                className="hover:text-iutdsred text-white text-xl"
+              >
                 Blogs
               </Link>
             </li>

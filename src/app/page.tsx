@@ -1,8 +1,8 @@
 import React from "react";
-import Image from "next/image";
 import Overview from "@/components/Overview";
 import Achivements from "@/components/Achivements";
 import TopBanner from "@/components/TopBanner";
+import Events from "@/components/Events";
 
 export default function Home() {
   return (
@@ -11,6 +11,7 @@ export default function Home() {
       <div className="mx-auto px-5">
         <Overview />
         <Achivements />
+        <Events />
       </div>
     </section>
   );

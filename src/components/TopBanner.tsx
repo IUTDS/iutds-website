@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import IUTDS_IV_Banner from "public/assets/images/IUTDS_IV_Banner.png";
+import Link from "next/link";
 
 const TopBanner = () => {
   return (
@@ -12,11 +13,8 @@ const TopBanner = () => {
           src={IUTDS_IV_Banner}
           alt="IUTDS Group Photo"
         />
-        <div className="md:absolute md:top-1/2 md:right-0 md:transform -translate-y-10 md:-translate-x-32 text-center md:text-right z-10">
-          {/* The z-10 class gives higher stacking order to the text content */}
+        <div className="md:absolute md:top-1/2 md:right-0 md:transform -translate-y-10 md:-translate-x-32 text-center md:text-right z-10 flex flex-col items-center">
           <div className="hidden md:block">
-            {" "}
-            {/* Display only on larger screens */}
             <div className="tracking-tight font-light leading-[1.15] text-white md:text-3xl text-xs uppercase">
               Welcome to{" "}
             </div>
@@ -26,6 +24,15 @@ const TopBanner = () => {
             <p className="tracking-tighter leading-[1.15] text-white md:text-xl text-xs">
               Where logic meets rhetoric and prudence meets eloquence
             </p>
+          </div>
+          <div className="py-8 hidden md:block">
+            <Link
+              href="https://docs.google.com/forms/d/e/1FAIpQLSepaAMXajB0oPrQVB4Iv7BBZ_8XJQ64l3bHjLZZhy1DjKL7OA/viewform"
+              passHref
+              className="text-xl px-10 py-4 rounded-lg bg-iutdsred uppercase text-white hover:bg-red-600 transition duration-300"
+            >
+              IV Pre-Registration
+            </Link>
           </div>
           <div className="md:hidden mt-20">
             {" "}
@@ -39,6 +46,15 @@ const TopBanner = () => {
             <p className="text-sm tracking-tightest">
               Where logic meets rhetoric and prudence meets eloquence
             </p>
+            <div className="pt-8">
+              <Link
+                href="https://docs.google.com/forms/d/e/1FAIpQLSepaAMXajB0oPrQVB4Iv7BBZ_8XJQ64l3bHjLZZhy1DjKL7OA/viewform"
+                passHref
+                className="text-base px-10 py-4 rounded-lg bg-iutdsred uppercase text-white hover:bg-red-600 transition duration-300"
+              >
+                IV Pre-Registration
+              </Link>
+            </div>
           </div>
         </div>
       </div>
