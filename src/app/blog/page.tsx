@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import { Book } from "feather-icons-react";
+import { AiOutlineAiOutlineBook, AiOutlineBook } from "react-icons/ai";
 
 const page = () => {
   return (
@@ -32,7 +32,7 @@ const page = () => {
           </p>
 
           <div className="ml-4 mr-10 my-4 flex flex-row">
-            <Book size={24} />
+            <AiOutlineAiOutlineAiOutlineBook size={24} />
             <h3 className="text-gray-500 ml-0.5">Sajid Chowdhury</h3>
             <Link href="/blog/art-of-speaking">
               <button className="ml-20 bg-black text-white py-1 px-2 rounded shadow hover:bg-gray-700 transition duration-300">
@@ -64,7 +64,7 @@ const page = () => {
           </p>
 
           <div className="ml-4 mr-10 my-4 flex flex-row">
-            <Book size={24} />
+            <AiOutlineAiOutlineBook size={24} />
             <h3 className="text-gray-500 ml-0.5">Safrina Kabir</h3>
             <Link href="/blog/art-of-persuation">
               <button className="ml-20 bg-black text-white py-1 px-2 rounded shadow hover:bg-gray-700 transition duration-300">
@@ -96,7 +96,7 @@ const page = () => {
           </p>
 
           <div className="ml-4 mr-10 my-4 flex flex-row">
-            <Book size={24} />
+            <AiOutlineAiOutlineBook size={24} />
             <h3 className="text-gray-500 ml-0.5">Tasmia Rimi</h3>
             <Link href="/blog/power-of-listening">
               <button className="ml-20 bg-black text-white py-1 px-2 rounded shadow hover:bg-gray-700 transition duration-300">
@@ -128,7 +128,7 @@ const page = () => {
           </p>
 
           <div className="ml-4 mr-10 my-4 flex flex-row">
-            <Book size={24} />
+            <AiOutlineBook size={24} />
             <h3 className="text-gray-500 ml-0.5">Jubayer Fayej</h3>
             <Link href="/blog/freedom-of-speech">
               <button className="ml-20 bg-black text-white py-1 px-2 rounded shadow hover:bg-gray-700 transition duration-300">
@@ -160,7 +160,7 @@ const page = () => {
           </p>
 
           <div className="ml-4 mr-10 my-4 flex flex-row">
-            <Book size={24} />
+            <AiOutlineBook size={24} />
             <h3 className="text-gray-500 ml-0.5">Mansura Islam</h3>
             <Link href="/blog/beyond-winning">
               <button className="ml-20 bg-black text-white py-1 px-2 rounded shadow hover:bg-gray-700 transition duration-300">
@@ -192,7 +192,7 @@ const page = () => {
           </p>
 
           <div className="ml-4 mr-10 my-4 flex flex-row">
-            <Book size={24} />
+            <AiOutlineBook size={24} />
             <h3 className="text-gray-500 ml-0.5">Shahnila Anan</h3>
             <Link href="/blog/democracy-tool">
               <button className="ml-20 bg-black text-white py-1 px-2 rounded shadow hover:bg-gray-700 transition duration-300">
