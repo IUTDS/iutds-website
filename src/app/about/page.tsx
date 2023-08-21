@@ -17,15 +17,15 @@ const page = () => {
           of the Islamic University of Technology, right in the center of
           academic achievement. Students follow a process where they come to a
           conclusion and offer a remedy, building a broad picture of society
-          with its two sides to pinpoint the community's problem. Dark
+          with its two sides to pinpoint the community&apos;s problem. Dark
           depictions of human existence are shown, providing context for
           understanding the fundamental issues. Through creative brains, there
           are some remarkable mysteries that can be solved or transformed into
           elegant solutions that make life easier. <br />
           <div className="mt-3"></div>
           It was formed in 1997 by Mr. Rishad Shafik. From that time it has done
-          more than just club. A notable name in the history of Bangladesh's
-          journey of controversy. IUTDS's two presidents were nominated for
+          more than just club. A notable name in the history of Bangladesh&apos;s
+          journey of controversy. IUTDS&apos;s two presidents were nominated for
           honorary positions in the Bangladesh Debating Council. One of them is
           Mabrur Wasi and the other is Rishad Sharif. At the international
           level. Its notable achievements are : Malaysia World University
@@ -58,7 +58,7 @@ const page = () => {
           <div className="absolute bottom-0 left-0 w-1/2 h-1 bg-iutdsred transform translate-y-1"></div>
         </h2>
         <p className="sub-body_text mt-5">
-          IUTDS hopes to surpass all others as Bangladesh's top debate
+          IUTDS hopes to surpass all others as Bangladesh&apos;s top debate
           organization. It wants all of these accomplishments to be proud
           symbols for Bangladesh as well as IUT. The name IUTDS will come with
           fame. It aspires to be the best club, where everyone feels like a
@@ -67,7 +67,7 @@ const page = () => {
           IUTDS is comparable to a giant tree from which people can obtain
           oxygen, shelter, food, and a sense of tranquility in addition to
           fertilizing the tree to help it grow. As the tree gets bigger and
-          bigger, so do people's opportunities. The tree grows to be the most
+          bigger, so do people&apos;s opportunities. The tree grows to be the most
           prominent and most noticeable, which causes pride. <br />
           <div className="mt-3"></div>
           We aim to establish a vibrant and educational debate club that
@@ -93,21 +93,21 @@ const page = () => {
           confidence is elevated to a higher level. We can foster our knowledge
           and also create a big picture of society or any thoughts that involve
           our understanding that the coin also has two sides. IUTDS is the
-          stagnation of manifestation in one's sagacity. Debaters can explore
+          stagnation of manifestation in one&apos;  s sagacity. Debaters can explore
           themselves as a renewed person. Engaging in debates helps participants
           analyze complex issues, evaluate different perspectives, and form
           logical arguments. Debaters may weigh evidence, identify fallacies,
           and consider counterarguments, all of which foster critical thinking
           skills applicable beyond debates. IUTDS generates huge opportunities
           to connect with like-minded individuals, mentors, and experts in the
-          field you're debating about. Strong debate skills can be valuable in
+          field you&apos;re debating about. Strong debate skills can be valuable in
           academic settings, job interviews, negotiations, and any scenario
           where effective communication is crucial. Analytical thinking gives us
           the ability to view things widely; it presents a dynamic floor that
           gives input as efficiency. Our research and critical thinking build
           different perceptions of different things, which also propagate a new
           model and provide a platform for you to advocate for causes you
-          believe in and potentially influence others' opinions, making you a
+          believe in and potentially influence others&apos; opinions, making you a
           more effective leader and advocate.
         </p>
       </section>

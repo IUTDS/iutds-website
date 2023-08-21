@@ -21,7 +21,7 @@ const Achivements = () => {
       </div>
       <div className="md:w-3/4 md:py-10 md:px-10">
         <h1 className="head_text relative inline-block">
-          <Link href="/achievements">Achivements</Link>
+          <Link href="/achievements">Achievements</Link>
           <div className="absolute bottom-0 left-0 w-1/2 h-1 bg-iutdsred transform translate-y-1"></div>
         </h1>
         <div className="pt-5"></div>

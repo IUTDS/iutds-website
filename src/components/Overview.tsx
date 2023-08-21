@@ -27,7 +27,8 @@ const Overview = () => {
           alt="IUTDS Group Photo"
         />
         <p className="mt-4 text-center text-gray-500 md:text-base text-sm">
-          The past, present and future of IUTDS, at Batch '17s farewell, 2022
+          The past, present and future of IUTDS, at Batch &apos;17s farewell,
+          2022
         </p>
       </div>
     </div>
