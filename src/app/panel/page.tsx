@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Page = () => {
   return (
@@ -233,7 +234,41 @@ const Page = () => {
           <br />
         </div>
       </div>
+
+      <div className="flex items-center justify-center pb-4">
+      <ul className="flex flex-row items-center gap-[4vw] gap-8">
+            <li>
+              <Link
+                href="/panel"
+                className="hover:text-red-500 text-xl"
+              >
+                <span className="border-b-2 border-red-500">
+                  <b>1</b>
+                </span>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/panel/batch-20"
+                className="hover:text-red-500 text-xl"
+              >
+                <b>2</b>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/programs"
+                className="hover:text-red-500 text-xl"
+              >
+                <b>3</b>
+              </Link>
+            </li>
+        </ul>
+      </div>
+        
+
     </section>
+
   );
 };
 
