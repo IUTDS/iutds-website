@@ -21,15 +21,13 @@ const Navbar = () => {
     <div className="bg-[#000000] py-3">
       <nav className="flex justify-between items-center w-[92%] mx-auto z-10">
         <Link href="/">
-          <div className="mt-5">
-            <Image
-              className="text-white"
-              width={70}
-              height={70}
-              src="/assets/images/logo_bright.png"
-              alt="IUTDS logo"
-            />
-          </div>
+          <Image
+            className="text-white"
+            width={70}
+            height={70}
+            src="/assets/images/logo_bright.png"
+            alt="IUTDS logo"
+          />
         </Link>
 
         <div

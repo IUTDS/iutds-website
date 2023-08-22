@@ -18,7 +18,7 @@ const Footer = () => {
           </Link>
         </div>
         <Link
-          href="iutds@iut-dhaka.edu"
+          href="mailto:iutds@iut-dhaka.edu"
           className="md:text-lg pb-2 text-sm text-slate-300 lowercase
           hover:brightness-200 hover:text-white"
         >
