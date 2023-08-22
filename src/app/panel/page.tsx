@@ -4,7 +4,7 @@ import Image from "next/image";
 const Page = () => {
   return (
     <section className="w-full flex-center flex-col">
-      <h1 className="head_text text-center my-4">EC Panel</h1>
+      <h1 className="head_text text-center my-10">EC Panel</h1>
       {/* President */}
       <h2 className="head_text text-center">President</h2>
       <div className="flex justify-center items-center mt-2">

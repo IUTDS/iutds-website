@@ -6,7 +6,7 @@ import { AiOutlineBook } from "react-icons/ai";
 
 const page = () => {
   return (
-    <section className="container mx-auto py-6">
+    <section className="container mx-auto">
       <h1 className="head_text text-center red_gradient my-10">Our Blogs</h1>
 
       <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-14 mb-8">
