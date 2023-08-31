@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 const page = () => {
   return (
@@ -7,7 +6,6 @@ const page = () => {
       <section className="w-full flex-row items-center">
         <h1 className="head_text text-center my-10">
           Our Events
-          <div className="absolute bottom-0 left-0 w-1/2 h-1 bg-iutdsred transform translate-y-1"></div>
         </h1>
 
         {/* IUT IV */}
@@ -47,7 +45,7 @@ const page = () => {
 
             <div className="md:flex md:justify-around sm:grid sm:grid-cols-1 sm-gap-14">
               <div className="container">
-                <Image
+                <img
                   className="center-image p-4"
                   width={300}
                   height={150}
@@ -84,7 +82,7 @@ const page = () => {
                 Vakur-Er-Kul.
               </p>
               <div className="container">
-                <Image
+                <img
                   className="center-image p-4"
                   width={300}
                   height={150}
@@ -99,7 +97,7 @@ const page = () => {
 
             <div className="md:flex md:justify-around sm:grid sm:grid-cols-1 sm-gap-14 pb-2">
               <div className="container">
-                <Image
+                <img
                   className="center-image p-4"
                   width={300}
                   height={150}
@@ -131,7 +129,7 @@ const page = () => {
 
             <div className="md:flex md:justify-around sm:grid sm:grid-cols-1 sm-gap-14">
               <div className="container">
-                <Image
+                <img
                   className="center-image p-4"
                   width={300}
                   height={150}
@@ -168,7 +166,7 @@ const page = () => {
                 Guest and Special Guest respectively.
               </p>
               <div className="container">
-                <Image
+                <img
                   className="center-image p-4"
                   width={300}
                   height={150}
@@ -183,7 +181,7 @@ const page = () => {
 
             <div className="md:flex md:justify-around sm:grid sm:grid-cols-1 sm-gap-14 pb-2">
               <div className="container">
-                <Image
+                <img
                   className="center-image p-4"
                   width={300}
                   height={150}
@@ -231,7 +229,7 @@ const page = () => {
 
             <div className="md:flex md:justify-around sm:grid sm:grid-cols-1 sm-gap-14">
               <div className="container">
-                <Image
+                <img
                   className="center-image p-4"
                   width={300}
                   height={150}
@@ -267,7 +265,7 @@ const page = () => {
 
             <div className="md:flex md:justify-around sm:grid sm:grid-cols-1 sm-gap-14">
               <div className="container">
-                <Image
+                <img
                   className="center-image p-4"
                   width={300}
                   height={150}
@@ -299,7 +297,7 @@ const page = () => {
 
             <div className="md:flex md:justify-around sm:grid sm:grid-cols-1 sm-gap-14 pb-4">
               <div className="container">
-                <Image
+                <img
                   className="center-image p-4"
                   width={300}
                   height={150}
@@ -313,7 +311,7 @@ const page = () => {
               </div>
 
               <div className="container">
-                <Image
+                <img
                   className="center-image p-4"
                   width={300}
                   height={150}
@@ -333,7 +331,7 @@ const page = () => {
 
             <div className="md:flex md:justify-around sm:grid sm:grid-cols-1 sm-gap-14">
               <div className="container">
-                <Image
+                <img
                   className="center-image p-4"
                   width={300}
                   height={150}
@@ -374,7 +372,7 @@ const page = () => {
 
             <div className="md:flex md:justify-around sm:grid sm:grid-cols-1 sm-gap-14">
               <div className="container">
-                <Image
+                <img
                   className="center-image p-4"
                   width={300}
                   height={150}
@@ -407,7 +405,7 @@ const page = () => {
 
             <div className="md:flex md:justify-around sm:grid sm:grid-cols-1 sm-gap-14">
               <div className="container">
-                <Image
+                <img
                   className="center-image p-4"
                   width={300}
                   height={150}

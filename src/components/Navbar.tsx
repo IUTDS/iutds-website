@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { AiOutlineMenu } from "react-icons/ai";
 import { RxCross1 } from "react-icons/rx";
 import { useState } from "react";
@@ -18,14 +17,14 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-[#000000] py-3">
+    <div className="bg-[#000000] ">
       <nav className="flex justify-between items-center w-[92%] mx-auto z-10">
         <Link href="/">
-          <Image
+          <img
             className="text-white"
-            width={70}
-            height={70}
-            src="/assets/images/logo_bright.png"
+            width={90}
+            height={10}
+            src="/assets/images/IUTDS Logo-02.png"
             alt="IUTDS logo"
           />
         </Link>

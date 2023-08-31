@@ -1,6 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import IUTDS_IV_Banner from "public/assets/images/IUTDS_IV_Banner.png";
 import Link from "next/link";
 
 const TopBanner = () => {
@@ -8,9 +6,9 @@ const TopBanner = () => {
     <div className="relative flex flex-col md:flex-row items-center container mx-auto min-w-fit z-0">
       {/* The z-0 class gives the TopBanner a lower stacking order */}
       <div className="w-full relative">
-        <Image
+        <img
           className="w-full h-auto md:h-auto object-fill md:object-cover"
-          src={IUTDS_IV_Banner}
+          src="/assets/images/IUTDS_IV_Banner.png"
           alt="IUTDS Group Photo"
         />
         <div className="md:absolute md:top-1/2 md:right-0 md:transform -translate-y-10 md:-translate-x-32 text-center md:text-right z-10 flex flex-col items-center">

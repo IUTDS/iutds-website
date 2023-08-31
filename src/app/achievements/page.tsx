@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 const achievements = () => {
   return (
@@ -12,7 +11,7 @@ const achievements = () => {
 
       <div className="md:container mx-auto my-8">
         <div className="md:flex md:justify-around sm:grid sm:grid-cols-1 sm-gap-14 shadow-xl rounded-lg">
-          <Image
+          <img
             className="center-image p-4"
             width={300}
             height={150}
@@ -60,7 +59,7 @@ const achievements = () => {
             a prolonged drought for IUT, as the team successfully broke the
             curse of not advancing to the finals in international tournaments.
           </p>
-          <Image
+          <img
             className="center-image p-4"
             width={300}
             height={250}
@@ -72,7 +71,7 @@ const achievements = () => {
 
       <div className="md:container mx-auto my-8">
         <div className="md:flex md:justify-around sm:grid sm:grid-cols-1 sm-gap-14 shadow-xl rounded-lg">
-          <Image
+          <img
             className="center-image p-4"
             width={300}
             height={250}
@@ -113,7 +112,7 @@ const achievements = () => {
             outstanding performance showcased their exceptional prowess in the
             realm of debate, solidifying their victory in the tournament.
           </p>
-          <Image
+          <img
             className="center-image p-4"
             width={300}
             height={250}
@@ -125,7 +124,7 @@ const achievements = () => {
 
       <div className="md:container mx-auto my-8">
         <div className="md:flex md:justify-around sm:grid sm:grid-cols-1 sm-gap-14 shadow-xl rounded-lg">
-          <Image
+          <img
             className="center-image p-4"
             width={300}
             height={250}
@@ -169,7 +168,7 @@ const achievements = () => {
             Their exceptional achievements highlight the talent and dedication
             present within the debating community.
           </p>
-          <Image
+          <img
             className="center-image p-4"
             width={300}
             height={250}
@@ -187,7 +186,7 @@ const achievements = () => {
 
       <div className="md:container mx-auto my-8">
         <div className="md:flex md:justify-around sm:grid sm:grid-cols-1 sm-gap-14 shadow-xl rounded-lg">
-          <Image
+          <img
             className="center-image p-4"
             width={300}
             height={250}
@@ -224,7 +223,7 @@ const achievements = () => {
             event. He has been awarded a laptop for each championship from
             Grameenphone.
           </p>
-          <Image
+          <img
             className="center-image p-4"
             width={300}
             height={250}

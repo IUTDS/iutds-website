@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 
 import { AiOutlineBook } from "react-icons/ai";
@@ -11,7 +10,7 @@ const page = () => {
 
       <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-14 mb-8">
         <div className="shadow-xl rounded-xl">
-          <Image
+          <img
             className="rounded center-image"
             width={385}
             height={300}
@@ -43,7 +42,7 @@ const page = () => {
         </div>
 
         <div className="shadow-xl rounded-xl">
-          <Image
+          <img
             className="rounded center-image"
             width={385}
             height={300}
@@ -75,7 +74,7 @@ const page = () => {
         </div>
 
         <div className="shadow-xl rounded-xl">
-          <Image
+          <img
             className="rounded center-image"
             width={385}
             height={300}
@@ -107,7 +106,7 @@ const page = () => {
         </div>
 
         <div className="shadow-xl rounded-xl">
-          <Image
+          <img
             className="rounded center-image"
             width={385}
             height={300}
@@ -139,7 +138,7 @@ const page = () => {
         </div>
 
         <div className="shadow-xl rounded-xl">
-          <Image
+          <img
             className="rounded center-image"
             width={385}
             height={300}
@@ -171,7 +170,7 @@ const page = () => {
         </div>
 
         <div className="shadow-xl rounded-xl">
-          <Image
+          <img
             className="rounded center-image"
             width={385}
             height={300}

@@ -1,7 +1,5 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
-import Cafe_Debate_Photo from "public/event-images/img12.png";
 import InfoLine from "./InfoLine";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
@@ -9,9 +7,9 @@ const Events = () => {
   return (
     <div className="flex flex-col-reverse md:flex-row-reverse items-center py-5 container mx-auto">
       <div className="w-full py-10 md:px-10 md:flex-row">
-        <Image
+        <img
           className="rounded-3xl h-auto md:h-auto object-fill md:object-cover"
-          src={Cafe_Debate_Photo}
+          src="/event-images/img12.png"
           alt="Cafe Debate"
         />
         <p className="mt-4 text-center text-gray-500 md:text-base text-sm">

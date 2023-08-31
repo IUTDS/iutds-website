@@ -1,6 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import IUTDS_Group_Photo from "public/assets/images/IUTDS_Group_Photo.jpg";
 
 const Overview = () => {
   return (
@@ -21,9 +19,9 @@ const Overview = () => {
         </p>
       </div>
       <div className="w-full py-10 md:px-10 flex-row">
-        <Image
+        <img
           className="rounded-3xl w-full h-auto md:h-auto object-fill md:object-cover"
-          src={IUTDS_Group_Photo}
+          src="/assets/images/IUTDS_Group_Photo.jpg"
           alt="IUTDS Group Photo"
         />
         <p className="mt-4 text-center text-gray-500 md:text-base text-sm">

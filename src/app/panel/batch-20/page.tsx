@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 
 const Page = () => {
@@ -16,21 +15,21 @@ const Page = () => {
       <br />
       <div className="md:flex md:justify-evenly sm:grid sm:grid-rows-1">
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/1. Tanmoy.png"
+            src="/EC-Panel/batch20/20_1.jpeg"
             alt="Vice-president(Admin), IUTDS"
           />
           <br />
         </div>
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/2. Shuvro.png"
+            src="/EC-Panel/batch20/20_2.jpeg"
             alt="Vice-president(Operations), IUTDS"
           />
           <br />
@@ -46,21 +45,21 @@ const Page = () => {
       <br />
       <div className="md:flex md:justify-evenly sm:grid sm:grid-rows-1">
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/3. Raiyan.png"
+            src="/EC-Panel/batch20/20_3.jpeg"
             alt="Director(Administration), IUTDS"
           />
           <br />
         </div>
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/4. Sami.png"
+            src="/EC-Panel/batch20/20_4.jpeg"
             alt="Director(Creative), IUTDS"
           />
           <br />
@@ -76,41 +75,41 @@ const Page = () => {
       <br />
       <div className="md:flex md:justify-evenly sm:grid sm:grid-rows-1">
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/5. Tahia.png"
+            src="/EC-Panel/batch20/20_5.jpeg"
             alt="Head (Debate & Workshop), IUTDS"
           />
           <br />
         </div>
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/6. Tamim.png"
+            src="/EC-Panel/batch20/20_6.jpeg"
             alt="Head (Branding), IUTDS"
           />
           <br />
         </div>
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/7. Feehad.png"
+            src="/EC-Panel/batch20/20_7.jpeg"
             alt="Head (Communication), IUTDS"
           />
           <br />
         </div>
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/8. Ishmam.png"
+            src="/EC-Panel/batch20/20_8.jpeg"
             alt="Head (Content), IUTDS"
           />
           <br />
@@ -119,21 +118,21 @@ const Page = () => {
 
       <div className="md:flex md:justify-evenly sm:grid sm:grid-rows-1">
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/9. Faiza.png"
+            src="/EC-Panel/batch20/20_9.jpeg"
             alt="Head (Debate & Workshop), IUTDS"
           />
           <br />
         </div>
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/10. Nitu.png"
+            src="/EC-Panel/batch20/20_10.jpeg"
             alt="Head (Branding), IUTDS"
           />
           <br />
@@ -149,41 +148,41 @@ const Page = () => {
       <br />
       <div className="md:flex md:justify-evenly sm:grid sm:grid-rows-1">
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/11. Anika.png"
+            src="/EC-Panel/batch20/20_11.jpeg"
             alt="Strategic Head of Creative , IUTDS"
           />
           <br />
         </div>
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/12. Mou.png"
+            src="/EC-Panel/batch20/20_12.jpeg"
             alt="Strategic Head of Events , IUTDS"
           />
           <br />
         </div>
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/13. Efaz.png"
+            src="/EC-Panel/batch20/20_13.jpeg"
             alt="Strategic Head of Liaison , IUTDS"
           />
           <br />
         </div>
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/14. Ishraq Tayeem.png"
+            src="/EC-Panel/batch20/20_14.jpeg"
             alt="Strategic Head of Liaison , IUTDS"
           />
           <br />
@@ -192,21 +191,21 @@ const Page = () => {
 
       <div className="md:flex md:justify-evenly sm:grid sm:grid-rows-1">
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/15. Pushpita.png"
+            src="/EC-Panel/batch20/20_15.jpeg"
             alt="Strategic Head of Creative , IUTDS"
           />
           <br />
         </div>
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/16. Fahim.png"
+            src="/EC-Panel/batch20/20_16.jpeg"
             alt="Strategic Head of Events , IUTDS"
           />
           <br />
@@ -222,41 +221,41 @@ const Page = () => {
       <br />
       <div className="md:flex md:justify-evenly sm:grid sm:grid-rows-1">
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/17. Lubaba.png"
+            src="/EC-Panel/batch20/20_17.jpeg"
             alt="Strategic Head of Creative , IUTDS"
           />
           <br />
         </div>
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/18. Salvi.png"
+            src="/EC-Panel/batch20/20_18.jpeg"
             alt="Strategic Head of Events , IUTDS"
           />
           <br />
         </div>
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/19. Amin Saraj.png"
+            src="/EC-Panel/batch20/20_19.jpeg"
             alt="Strategic Head of Liaison , IUTDS"
           />
           <br />
         </div>
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/20. Nazia.png"
+            src="/EC-Panel/batch20/20_20.jpeg"
             alt="Strategic Head of Liaison , IUTDS"
           />
           <br />
@@ -265,41 +264,41 @@ const Page = () => {
 
       <div className="md:flex md:justify-evenly sm:grid sm:grid-rows-1">
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/21. Muna.png"
+            src="/EC-Panel/batch20/20_21.jpeg"
             alt="Strategic Head of Creative , IUTDS"
           />
           <br />
         </div>
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/22. Zaara.png"
+            src="/EC-Panel/batch20/20_22.jpeg"
             alt="Strategic Head of Events , IUTDS"
           />
           <br />
         </div>
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/23. Sameer.png"
+            src="/EC-Panel/batch20/20_23.jpeg"
             alt="Strategic Head of Liaison , IUTDS"
           />
           <br />
         </div>
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/24. Ifty.png"
+            src="/EC-Panel/batch20/20_24.jpeg"
             alt="Strategic Head of Liaison , IUTDS"
           />
           <br />
@@ -308,41 +307,41 @@ const Page = () => {
 
       <div className="md:flex md:justify-evenly sm:grid sm:grid-rows-1">
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/25. Mahi.png"
+            src="/EC-Panel/batch20/20_25.jpeg"
             alt="Strategic Head of Creative , IUTDS"
           />
           <br />
         </div>
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/26. Neel.png"
+            src="/EC-Panel/batch20/20_26.jpeg"
             alt="Strategic Head of Events , IUTDS"
           />
           <br />
         </div>
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/27. Maeem.png"
+            src="/EC-Panel/batch20/20_27.jpeg"
             alt="Strategic Head of Liaison , IUTDS"
           />
           <br />
         </div>
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/28. Rafin Jawad.png"
+            src="/EC-Panel/batch20/20_28.jpeg"
             alt="Strategic Head of Liaison , IUTDS"
           />
           <br />
@@ -351,41 +350,41 @@ const Page = () => {
 
       <div className="md:flex md:justify-evenly sm:grid sm:grid-rows-1">
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/29. Zunaira.png"
+            src="/EC-Panel/batch20/20_29.jpeg"
             alt="Strategic Head of Creative , IUTDS"
           />
           <br />
         </div>
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/30. Shahbaz.png"
+            src="/EC-Panel/batch20/20_30.jpeg"
             alt="Strategic Head of Events , IUTDS"
           />
           <br />
         </div>
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/31. Safrina.png"
+            src="/EC-Panel/batch20/20_31.jpeg"
             alt="Strategic Head of Liaison , IUTDS"
           />
           <br />
         </div>
         <div>
-          <Image
+          <img
             className="center-image"
             width={300}
             height={250}
-            src="/EC-Panel/batch20/32. Abdallah.png"
+            src="/EC-Panel/batch20/20_32.jpeg"
             alt="Strategic Head of Liaison , IUTDS"
           />
           <br />

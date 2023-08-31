@@ -1,7 +1,5 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
-import Australs_Photo from "public/achievements/PXL_20230708_150018239.jpg";
 import InfoLine from "./InfoLine";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
@@ -9,9 +7,9 @@ const Achivements = () => {
   return (
     <div className="flex flex-col-reverse md:flex-row items-center py-5 container mx-auto">
       <div className="w-full py-10 md:px-10 md:flex-row">
-        <Image
+        <img
           className="rounded-3xl w-full h-auto md:h-auto object-fill md:object-cover"
-          src={Australs_Photo}
+          src="/achievements/PXL_20230708_150018239.jpg"
           alt="Krabi Australs 2023"
         />
         <p className="mt-4 text-center text-gray-500 md:text-base text-sm">

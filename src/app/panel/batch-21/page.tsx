@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 
 const Page = () => {
@@ -12,7 +11,7 @@ const Page = () => {
         <div className="horizontal-line"></div>
       </div>
       <div className="flex-center mt-4 mx-2">
-        <Image
+        <img
           className="center-image"
           width={600}
           height={250}
@@ -23,7 +22,7 @@ const Page = () => {
       </div>
 
       <div className="flex-center mt-4 mx-2">
-        <Image
+        <img
           className="center-image"
           width={600}
           height={250}
@@ -34,7 +33,7 @@ const Page = () => {
       </div>
 
       <div className="flex-center mt-4 mx-2">
-        <Image
+        <img
           className="center-image"
           width={600}
           height={250}
@@ -45,7 +44,7 @@ const Page = () => {
       </div>
 
       <div className="flex-center mt-4 mx-2">
-        <Image
+        <img
           className="center-image"
           width={600}
           height={250}
@@ -56,7 +55,7 @@ const Page = () => {
       </div>
 
       <div className="flex-center mt-4 mx-2">
-        <Image
+        <img
           className="center-image"
           width={600}
           height={250}
@@ -67,7 +66,7 @@ const Page = () => {
       </div>
 
       <div className="flex-center mt-4 mx-2">
-        <Image
+        <img
           className="center-image"
           width={600}
           height={250}
@@ -78,7 +77,7 @@ const Page = () => {
       </div>
 
       <div className="flex-center mt-4 mx-2">
-        <Image
+        <img
           className="center-image"
           width={600}
           height={250}
@@ -89,7 +88,7 @@ const Page = () => {
       </div>
 
       <div className="flex-center mt-4 mx-2">
-        <Image
+        <img
           className="center-image"
           width={600}
           height={250}
@@ -100,7 +99,7 @@ const Page = () => {
       </div>
 
       <div className="flex-center mt-4 mx-2">
-        <Image
+        <img
           className="center-image"
           width={600}
           height={250}
@@ -111,7 +110,7 @@ const Page = () => {
       </div>
 
       <div className="flex-center mt-4 mx-2">
-        <Image
+        <img
           className="center-image"
           width={600}
           height={250}
@@ -141,7 +140,7 @@ const Page = () => {
             </li>
             <li>
               <Link
-                href="/panel/batch-2"
+                href="/panel/batch-21"
                 className="hover:text-red-500 text-xl"
               >
                 <span className="border-b-2 border-red-500">
