@@ -2,8 +2,8 @@ import React from "react";
 
 const Overview = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center md:py-10 container mx-auto">
-      <div className="md:w-3/4 md:py-10 md:px-10">
+    <div className="flex flex-col md:flex-row items-center pt-10 container mx-auto">
+      <div className="md:w-3/4 md:px-10">
         <h1 className="head_text relative inline-block">
           Overview
           <div className="absolute bottom-0 left-0 w-1/2 h-1 bg-iutdsred transform translate-y-1"></div>
@@ -18,7 +18,7 @@ const Overview = () => {
           flourish and positive change resonates nationwide.
         </p>
       </div>
-      <div className="w-full py-10 md:px-10 flex-row">
+      <div className="w-full md:px-10 flex-row">
         <img
           className="rounded-3xl w-full h-auto md:h-auto object-fill md:object-cover"
           src="/assets/images/IUTDS_Group_Photo.jpg"

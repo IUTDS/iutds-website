@@ -5,8 +5,8 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Achivements = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row items-center py-5 container mx-auto">
-      <div className="w-full py-10 md:px-10 md:flex-row">
+    <div className="flex flex-col-reverse md:flex-row items-center pt-10 container mx-auto">
+      <div className="w-full md:px-10 md:flex-row">
         <img
           className="rounded-3xl w-full h-auto md:h-auto object-fill md:object-cover"
           src="/achievements/PXL_20230708_150018239.jpg"

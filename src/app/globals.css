@@ -70,6 +70,8 @@ p {
   @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
 }
 
+@layer components
+
 .center-image {
   display: block;
   margin: 0 auto;
@@ -79,4 +81,9 @@ p {
   width: 300px;
   height: 3px;
   background-color: brown;
+}
+
+.rounded-b-topbanner {
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
 }
